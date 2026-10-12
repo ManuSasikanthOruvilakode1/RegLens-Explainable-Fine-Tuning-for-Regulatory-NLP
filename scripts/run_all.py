@@ -20,7 +20,7 @@ from src.export import ModelExporter
 
 def main():
     print("=" * 70)
-    print(" Australian NLP Fine-Tuning Suite - Baseline Execution")
+    print(" RegLens - Baseline Execution")
     print("=" * 70)
 
     train_path = os.path.join(BASE_DIR, "data", "processed", "classification", "train.jsonl")
@@ -95,7 +95,7 @@ def main():
     os.makedirs(results_dir, exist_ok=True)
     report_file = os.path.join(results_dir, "classification_report.md")
     with open(report_file, "w", encoding="utf-8") as f:
-        f.write("# Australian NLP Classification Baseline Report\n\n")
+        f.write("# RegLens baseline: regulatory text classification report\n\n")
         f.write(f"- **Accuracy**: {metrics['accuracy'] * 100:.1f}%\n")
         f.write(f"- **Macro-F1**: {metrics['macro_f1']:.4f} (95% CI: [{cis['macro_f1_95ci'][0]:.4f}, {cis['macro_f1_95ci'][1]:.4f}])\n\n")
         f.write("## Per-Class Performance\n\n")

@@ -39,7 +39,8 @@ SUMMARY_EXAMPLE = (
 ENTITY_COLOURS = {"GOV_BODY": "#2a78d6", "REGULATORY_ACT": "#eb6834", "FINANCIAL_TERM": "#1baf7a", "ORG": "#6250d6"}
 
 INTRO = """
-# Australian Regulatory NLP
+# RegLens
+### Explainable Fine-Tuning for Regulatory NLP
 
 Models fine-tuned on Australian tax, workplace-relations and corporate-governance text.
 Every number quoted here comes from held-out evaluation; see the project README for confidence intervals.
@@ -84,7 +85,7 @@ def build_app(device: str = "auto") -> gr.Blocks:
         probs, ms = onnx_clf.predict(text)
         return probs, f"**{ms:.1f} ms** on CPU (ONNX Runtime, INT8, single sentence)"
 
-    with gr.Blocks(title="Australian Regulatory NLP") as app:
+    with gr.Blocks(title="RegLens") as app:
         gr.Markdown(INTRO)
         with gr.Tab("Classify"):
             gr.Markdown("Which regulatory domain does a question belong to, and which words drove the decision? "

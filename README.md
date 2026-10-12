@@ -1,4 +1,4 @@
-# Australian NLP Fine-Tuning Suite
+# RegLens: Explainable Fine-Tuning for Regulatory NLP
 
 Parameter-efficient transformer fine-tuning on Australian regulatory text (taxation, workplace relations and corporate governance). The suite covers sequence classification, named entity recognition, extractive question answering, domain-adaptive pre-training, knowledge distillation, multi-task learning, abstractive summarisation, token attribution, ONNX / INT8 deployment and MLflow experiment tracking. Every number below comes from a run on held-out data, with 95% confidence intervals.
 
@@ -233,7 +233,7 @@ Both need the trained models in `models/`, which `scripts/run_transformer_suite.
 ## Project structure
 
 ```
-Australian-NLP-Fine-Tuning/
+RegLens-Explainable-Fine-Tuning-for-Regulatory-NLP/
 │
 ├── README.md                          Project overview, results and usage
 ├── LICENSE                            Apache-2.0
@@ -333,7 +333,7 @@ Created locally and not in the repository: `.venv/` (environment), `models/` (tr
 Requires [uv](https://github.com/astral-sh/uv). This project has its own isolated environment, pinned to Python 3.12.
 
 ```bash
-cd "Australian NLP fine-tuning"
+cd RegLens-Explainable-Fine-Tuning-for-Regulatory-NLP
 
 # Baseline only (CPU, no deep-learning dependencies)
 uv sync --extra dev

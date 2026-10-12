@@ -1,7 +1,7 @@
 [project]
-name = "australian-nlp-fine-tuning"
+name = "reglens"
 version = "1.0.0"
-description = "Transformer fine-tuning suite on domain-specific Australian regulatory and legal corpora."
+description = "Explainable, parameter-efficient fine-tuning (LoRA, QLoRA, distillation) for regulatory text classification, NER, QA and summarisation."
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.10"

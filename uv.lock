@@ -394,7 +394,7 @@ wheels = [
 ]
 
 [[package]]
-name = "australian-nlp-fine-tuning"
+name = "reglens"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [
