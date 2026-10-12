@@ -1,0 +1,137 @@
+The Commissioner of Taxation has general administration of the income tax law and may issue public rulings that bind the Commissioner when they apply to a taxpayer. A taxpayer who relies on a public ruling is protected from shortfall penalties and interest if the ruling is later found to be incorrect.
+Assessable income includes ordinary income, such as salary, wages, business income and interest, together with statutory income that is specifically included by a provision of the income tax law. Exempt income and non-assessable non-exempt income are excluded when calculating taxable income.
+A general deduction is available for a loss or outgoing to the extent it is incurred in gaining or producing assessable income, or is necessarily incurred in carrying on a business for that purpose. Outgoings of a capital, private or domestic nature are not deductible under the general provision.
+The goods and services tax applies to taxable supplies made for consideration in the course of an enterprise connected with the indirect tax zone. Input-taxed supplies, such as residential rent and most financial supplies, do not attract GST, and the supplier cannot claim input tax credits for acquisitions relating to them.
+Single Touch Payroll requires employers to report salary or wages, pay as you go withholding and superannuation information to the tax office each time they pay employees. Employees can view their year-to-date information through their online government services account.
+The superannuation guarantee charge is not deductible, unlike superannuation contributions paid on time. Employers that do not pay the charge may be issued a director penalty notice, making directors personally liable for the unpaid amount.
+A trust is an obligation imposed on a trustee to deal with property for the benefit of beneficiaries. Discretionary trusts give the trustee discretion to decide which beneficiaries receive distributions of income or capital in each income year.
+Division 7A treats certain payments, loans and forgiven debts provided by a private company to shareholders or their associates as unfranked dividends unless the loan is placed on complying terms before the company's lodgment day.
+The National Employment Standards are eleven minimum entitlements that apply to all employees covered by the national workplace relations system. They cover maximum weekly hours, requests for flexible working arrangements, parental leave, annual leave, personal leave, community service leave, long service leave, public holidays, notice of termination and redundancy pay, the Fair Work Information Statement and offers to convert casual employment.
+Modern awards set out minimum terms and conditions of employment for an industry or occupation, in addition to the National Employment Standards. They include minimum wages, penalty rates, overtime, allowances, rostering arrangements and consultation obligations. The Fair Work Commission reviews modern awards and may vary them.
+Enterprise bargaining allows employers, employees and their bargaining representatives to negotiate an agreement tailored to a particular workplace. Bargaining representatives must meet good faith bargaining requirements, including attending meetings, disclosing relevant information in a timely manner and responding to proposals.
+An employee is protected from unfair dismissal if they have completed the minimum employment period and either earn less than the high income threshold or are covered by an award or enterprise agreement. A dismissal is unfair if it was harsh, unjust or unreasonable and was not a case of genuine redundancy.
+A genuine redundancy occurs when an employer no longer requires the employee's job to be performed by anyone because of operational changes, and the employer has complied with any consultation obligations. A dismissal is not a genuine redundancy if it would have been reasonable to redeploy the employee within the enterprise.
+The general protections provisions protect workplace rights, freedom of association and freedom from discrimination. A person must not take adverse action against another person because they have a workplace right, have exercised a workplace right, or propose to exercise a workplace right.
+Persons conducting a business or undertaking have a primary duty to ensure, so far as is reasonably practicable, the health and safety of workers engaged or caused to be engaged by them. Officers must exercise due diligence to ensure the business complies with its duties.
+A company is a separate legal entity with the capacity and powers of an individual and of a body corporate. It can own property, enter contracts and sue or be sued in its own name. Members of a company limited by shares are liable only for any amount unpaid on their shares.
+Directors and other officers must exercise their powers and discharge their duties with the degree of care and diligence that a reasonable person would exercise if they were a director or officer of a corporation in the corporation's circumstances and occupied the same office.
+A director must exercise their powers and discharge their duties in good faith in the best interests of the corporation and for a proper purpose. A person who is involved in a contravention of these duties may also contravene the law as an accessory.
+The financial reporting requirements in Chapter 2M of the Corporations Act apply to disclosing entities, public companies, large proprietary companies and registered schemes. Financial reports must comply with accounting standards and must be audited unless relief is available.
+A company must keep written financial records that correctly record and explain its transactions and financial position and performance, and would enable true and fair financial statements to be prepared and audited. The records must be retained for seven years after the transactions covered by the records are completed.
+Liquidation is the process of winding up a company's affairs, realising its assets and distributing the proceeds to creditors in the statutory order of priority. Employee entitlements such as wages, superannuation, leave and redundancy pay are generally paid ahead of ordinary unsecured creditors.
+An Australian financial services licence is required to carry on a financial services business in Australia. Licensees must comply with general obligations, including having adequate resources, maintaining competence, having adequate risk management systems and a dispute resolution system that includes membership of the external complaints authority.
+The market integrity rules supplement the Corporations Act by setting out requirements for market participants on licensed financial markets. Insider trading occurs when a person in possession of inside information trades in, or procures another person to trade in, the relevant financial products.
+The Australian Prudential Regulation Authority supervises authorised deposit-taking institutions, general insurers, life insurers, private health insurers and most superannuation funds. Prudential standards address capital adequacy, liquidity, governance, risk management and operational resilience.
+The Australian Transaction Reports and Analysis Centre regulates reporting entities that provide designated services. Reporting entities must enrol, maintain an anti-money laundering and counter-terrorism financing program, verify customer identity and report suspicious matters, threshold transactions and international funds transfer instructions.
+Voluntary administration begins when a company's directors appoint an independent administrator because they believe the company is or is likely to become insolvent. The administrator investigates the company's affairs and holds a first meeting of creditors within eight business days. At the second meeting, creditors decide whether the company should execute a deed of company arrangement, go into liquidation, or be returned to the directors. During the administration a moratorium generally prevents creditors from enforcing their claims.
+A public company must hold an annual general meeting at least once each calendar year and within five months after the end of its financial year. The business of the meeting usually includes considering the financial report, the directors' report and the auditor's report, electing directors and appointing the auditor. Listed companies must also put a non-binding resolution to adopt the remuneration report. If 25 percent or more of votes are cast against the report at two consecutive meetings, a spill resolution must be put to members.
+Under the National Employment Standards, full-time and part-time employees accrue four weeks of paid annual leave for each year of service, with shift workers entitled to an additional week. Annual leave accumulates progressively according to ordinary hours of work and carries over from year to year. Casual employees do not receive paid annual leave but are compensated through a casual loading, which is commonly 25 percent. Many modern awards also provide an annual leave loading of 17.5 percent.
+Every company director must have a director identification number, a unique 15-digit identifier that a director keeps permanently. Applications are made to the Australian Business Registry Services and must be completed personally by the director because identity verification is required. Newly appointed directors must apply before their appointment. Failing to hold a director identification number when required can attract civil and criminal penalties.
+The whistleblower provisions in Part 9.4AAA of the Corporations Act protect eligible whistleblowers who disclose misconduct or an improper state of affairs concerning a regulated entity. Disclosures can be made to ASIC, APRA, an eligible recipient within the entity, or a legal practitioner. Public companies, large proprietary companies and trustees of registrable superannuation entities must have a whistleblower policy. Victimising a whistleblower is a civil penalty provision and a criminal offence.
+Goods and services tax is a broad-based tax of 10 percent on most goods, services and other items sold or consumed in Australia. A business must register for GST when its GST turnover is $75,000 or more, while non-profit organisations have a higher threshold of $150,000. Taxi and ride-sourcing drivers must register regardless of turnover. Registered businesses report GST on their business activity statement and can generally claim credits for the GST included in the price of business purchases.
+Section 588G of the Corporations Act imposes a duty on directors to prevent a company from incurring a debt when there are reasonable grounds to suspect the company is insolvent. A director who breaches the duty may face civil penalties and be ordered to compensate the company for creditor losses. The safe harbour provisions in section 588GA can protect a director who develops a course of action reasonably likely to lead to a better outcome for the company than immediate administration or liquidation.
+The superannuation guarantee requires employers to contribute a minimum percentage of an eligible employee's ordinary time earnings to a complying superannuation fund. The rate rose to 11.5 percent on 1 July 2024 and to 12 percent on 1 July 2025. Contributions must be paid at least four times a year, by the 28th day after the end of each quarter. Employers who miss a quarterly deadline must lodge a superannuation guarantee charge statement and pay the charge, which includes the shortfall, nominal interest and an administration fee.
+An employee who believes they were unfairly dismissed can apply to the Fair Work Commission. The application must be made within 21 days after the dismissal took effect. To be protected, an employee generally needs to have completed a minimum employment period of six months, or twelve months if the employer is a small business with fewer than fifteen employees. The Commission may order reinstatement or, where reinstatement is inappropriate, compensation capped at six months of pay.
+Employees with at least twelve months of continuous service can request flexible working arrangements if they are a parent of a school-age child, a carer, have a disability, are 55 or older, are pregnant, or are experiencing family and domestic violence. The request must be in writing, and the employer must respond in writing within 21 days. An employer can only refuse on reasonable business grounds after genuinely trying to reach agreement. Disputes about refusals can be dealt with by the Fair Work Commission.
+Franking credits attached to dividends reflect company tax already paid on the distributed profits.
+Thin capitalisation rules limit debt deductions claimed by multinational groups operating in Australia.
+A proprietary company must have at least one director who ordinarily resides in Australia.
+PAYG withholding payments must be reported via Single Touch Payroll on or before each pay day to the tax office.
+Wine equalisation tax is levied on the wholesale value of wine sold in Australia.
+Small business entities may use the simplified depreciation pool for most depreciating assets.
+Officers of a corporation must exercise their powers in good faith in the best interests of the corporation.
+Independent contractors are distinguished from employees by examining the totality of the working relationship.
+Unfair dismissal applications must be lodged with the Fair Work Commission within 21 days of the dismissal taking effect.
+Financial records explaining company transactions must be retained for a mandatory minimum period of 7 years.
+Work from home expenses may be claimed using the fixed rate method with records of hours worked.
+Directors must not improperly use their position to gain an advantage for themselves or cause detriment to the company.
+Public companies must have at least three directors, two of whom ordinarily reside in Australia.
+Rostered days off allow employees to accrue time toward an additional paid day.
+Stand down provisions allow unpaid stand down when work cannot usefully be performed due to a stoppage.
+Proprietary companies limited by shares must maintain an up-to-date register of members and beneficial owners.
+A full-time employee accrues four weeks of paid annual leave progressively throughout each continuous year of service.
+Deregistration of a company may be voluntary where it has no assets or liabilities.
+Liquidators may recover unfair preferences paid to creditors in the six months before liquidation.
+A capital gains tax discount of 50 percent is available to individuals who hold an asset for more than twelve months.
+Luxury car tax is imposed on vehicles whose GST-inclusive value exceeds the luxury car threshold.
+Company secretaries of public companies must be appointed and ordinarily reside in Australia.
+Taxpayers may claim a deduction for the decline in value of depreciating assets used to earn assessable income.
+The maximum weekly hours for a full-time employee are 38 plus reasonable additional hours.
+Sexual harassment in connection with work is prohibited under the Fair Work Act.
+The statutory Superannuation Guarantee charge rate increased to 11.5% for all eligible employees under federal tax rules.
+Pay slips must be issued within one working day of paying an employee.
+Overtime rates apply when employees work beyond their ordinary hours under the relevant award.
+Disqualified persons cannot manage corporations without leave of the court.
+The Medicare levy applies to Australian resident taxpayers with taxable income above low-income thresholds.
+Auditor independence requirements restrict auditors from providing certain non-audit services.
+Piece rates may be paid to horticulture workers provided they meet a minimum hourly floor.
+Employees are entitled to ten days of paid family and domestic violence leave each year.
+Listed entities must disclose price-sensitive information to the market under continuous disclosure rules.
+Redundancy pay is calculated according to the employee's period of continuous service.
+The business judgment rule protects directors who make informed decisions in good faith for a proper purpose.
+Unpaid carer leave of two days per occasion is available to all employees including casual workers under the Fair Work Act.
+Auditor rotation rules require lead auditors of listed companies to rotate after five successive years.
+Fundraising documents for offers of securities must be lodged with ASIC as a prospectus.
+Excess non-concessional contributions may be released from the fund to avoid additional tax.
+Annual general meetings of public companies must be held within five months of the end of the financial year.
+Small business capital gains tax concessions provide relief for active assets held by eligible trading entities.
+Split shifts and broken shifts may attract allowances under hospitality awards.
+Employers must keep time and wages records for each employee for seven years.
+Companies must pass a formal solvency resolution confirming ability to pay debts as and when they become payable.
+Negative gearing allows net rental losses to be offset against other assessable income.
+Research and development tax incentive offsets reward eligible entities for conducting registered R&D activities.
+Fixed-term contracts for the same role are generally limited to two years.
+Companies must lodge a notice with ASIC when a director is appointed or ceases to hold office.
+Pay as you go instalments are prepayments of expected annual income tax liabilities.
+Transfer pricing provisions require related-party cross-border dealings to reflect arm's length conditions.
+ASIC may issue infringement notices for suspected contraventions of continuous disclosure obligations.
+Section 588G imposes a duty on directors to prevent insolvent trading.
+The base rate entity company tax rate of 25 percent applies to companies with aggregated turnover below $50 million.
+Charities endorsed as deductible gift recipients allow donors to claim tax deductions for gifts over $2.
+Payment summaries have been replaced by income statements finalised through Single Touch Payroll.
+Foreign residents are generally taxed in Australia only on income sourced in Australia.
+A company's constitution may be modified by special resolution of its members.
+The oppression remedy allows members to seek court orders against conduct unfairly prejudicial to them.
+Employers must give employees a Fair Work Information Statement before or as soon as possible after they start.
+Audit committees of listed entities should consist of a majority of independent directors.
+Workplace bullying applications can seek a stop bullying order from the Fair Work Commission.
+Employees may cash out annual leave only where an award or agreement permits it in writing.
+Eligible employees are entitled to up to twelve months of unpaid parental leave.
+Protected industrial action may only be taken during bargaining for a proposed enterprise agreement.
+Crypto asset disposals may give rise to a capital gains tax event for investors.
+An employee may request flexible working arrangements after twelve months of continuous service with the employer.
+Large proprietary companies must prepare audited financial reports each financial year.
+Modern awards set minimum wage rates and penalty rates for weekend and public holiday shifts across designated industries.
+The main residence exemption generally removes capital gains tax on the sale of a family home.
+A company must notify ASIC of a change of registered office address within 28 days.
+Unpaid trial shifts are generally unlawful unless the trial is only to demonstrate skills.
+Voluntary administration allows an independent administrator to take control of an insolvent company.
+Private binding rulings provide written advice on how the Commissioner applies tax law to a specific arrangement.
+Directors must disclose material personal interests in matters relating to the affairs of the company.
+Public companies and large proprietary companies must have a whistleblower policy.
+Sole traders report business income and expenses in the business schedule of their individual return.
+Work health and safety laws require persons conducting a business to ensure the health and safety of workers.
+Stamp duty is payable to the state revenue office on the transfer of dutiable property.
+The low income tax offset reduces the tax payable by residents with modest taxable income.
+Employees have a right to disconnect from unreasonable contact outside working hours.
+The instant asset write-off lets eligible small businesses immediately deduct the cost of qualifying assets.
+Meal breaks must be provided after five hours of continuous work under most awards.
+An ABN holder must quote their ABN to avoid no-ABN withholding at the top marginal rate.
+Employers have a positive duty to take reasonable measures to eliminate workplace sexual harassment.
+Individual flexibility arrangements may vary award terms if the employee is better off overall.
+Statutory derivative actions allow members to bring proceedings on behalf of the company with leave.
+General protections prohibit adverse action against an employee for exercising a workplace right.
+Share capital reductions must be fair and reasonable to shareholders as a whole.
+Record keeping obligations require taxpayers to keep receipts substantiating deductions for five years.
+GST is charged at 10 percent on most goods and services sold or consumed in Australia.
+Wage theft involving intentional underpayment of employees has been made a criminal offence.
+Penalties and general interest charges apply when tax debts are not paid by the due date.
+Taxable payments annual reports must be lodged by businesses that pay contractors in the building and construction industry.
+Members holding at least 5 percent of votes may requisition a general meeting.
+Community service leave covers jury duty and voluntary emergency management activities.
+Tax losses may be carried forward by companies that satisfy the continuity of ownership test.
+An employer must provide written notice of termination or payment in lieu according to the statutory notice period table.
+Related party transactions in public companies require member approval unless an exception applies.
+Annual leave loading of 17.5 percent is payable under many modern awards.
+Safe harbour protection can shield directors from insolvent trading liability while pursuing a restructure.
+A two strikes rule may trigger a board spill resolution after successive votes against the remuneration report.

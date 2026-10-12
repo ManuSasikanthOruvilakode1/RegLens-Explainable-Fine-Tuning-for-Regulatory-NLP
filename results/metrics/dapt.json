@@ -1,0 +1,55 @@
+{
+  "base_model": "bert-base-uncased",
+  "train_passages": 124,
+  "held_out_passages": 13,
+  "train_words": 3025,
+  "epochs": 10,
+  "learning_rate": 5e-05,
+  "mlm_probability": 0.15,
+  "perplexity_before": 15.542,
+  "perplexity_after": 11.223,
+  "train_seconds": 10.5,
+  "history": [
+    {
+      "epoch": 1,
+      "mlm_loss": 2.7795
+    },
+    {
+      "epoch": 2,
+      "mlm_loss": 2.3736
+    },
+    {
+      "epoch": 3,
+      "mlm_loss": 2.3758
+    },
+    {
+      "epoch": 4,
+      "mlm_loss": 2.062
+    },
+    {
+      "epoch": 5,
+      "mlm_loss": 2.0129
+    },
+    {
+      "epoch": 6,
+      "mlm_loss": 1.9802
+    },
+    {
+      "epoch": 7,
+      "mlm_loss": 1.7381
+    },
+    {
+      "epoch": 8,
+      "mlm_loss": 1.6511
+    },
+    {
+      "epoch": 9,
+      "mlm_loss": 1.8577
+    },
+    {
+      "epoch": 10,
+      "mlm_loss": 1.9449
+    }
+  ],
+  "output_dir": "models\\domain_adapted\\bert-base-uncased-au"
+}

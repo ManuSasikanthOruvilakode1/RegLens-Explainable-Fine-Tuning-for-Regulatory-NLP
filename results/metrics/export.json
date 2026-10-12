@@ -1,0 +1,26 @@
+{
+  "PyTorch FP32": {
+    "accuracy": 0.8888888888888888,
+    "latency_ms_median": 21.42,
+    "latency_ms_p90": 23.37,
+    "size_mb": 417.7,
+    "agreement": 1.0,
+    "max_abs_logit_diff": 0.0
+  },
+  "ONNX Runtime FP32": {
+    "accuracy": 0.8888888888888888,
+    "latency_ms_median": 16.83,
+    "latency_ms_p90": 17.89,
+    "size_mb": 417.9,
+    "agreement": 1.0,
+    "max_abs_logit_diff": 6.9141387939453125e-06
+  },
+  "ONNX Runtime INT8 (dynamic)": {
+    "accuracy": 0.9166666666666666,
+    "latency_ms_median": 7.47,
+    "latency_ms_p90": 8.49,
+    "size_mb": 105.2,
+    "agreement": 0.9444444444444444,
+    "max_abs_logit_diff": 1.8445370197296143
+  }
+}

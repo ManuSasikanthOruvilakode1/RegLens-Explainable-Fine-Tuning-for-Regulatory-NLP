@@ -1,0 +1,50 @@
+{
+  "run_name": "control_random_pooler_lora_s1234",
+  "base_model": "bert-base-uncased",
+  "method": "lora",
+  "trainable_params": 592131,
+  "total_params": 110076678,
+  "train_seconds": 7.1,
+  "peak_gpu_mib": 686.2,
+  "epochs_run": 11,
+  "test": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1_95ci": [
+      1.0,
+      1.0
+    ],
+    "accuracy_95ci": [
+      1.0,
+      1.0
+    ],
+    "accuracy_wilson_95ci": [
+      0.9162,
+      1.0
+    ],
+    "log_loss": 0.1116,
+    "latency_ms_per_sample": 1.256
+  },
+  "challenge": {
+    "accuracy": 0.8333333333333334,
+    "macro_f1": 0.8324561403508772,
+    "macro_precision": 0.8888888888888888,
+    "macro_recall": 0.8333333333333334,
+    "macro_f1_95ci": [
+      0.6667,
+      0.9619
+    ],
+    "accuracy_95ci": [
+      0.6667,
+      0.9667
+    ],
+    "accuracy_wilson_95ci": [
+      0.6644,
+      0.9266
+    ],
+    "log_loss": 0.4915,
+    "latency_ms_per_sample": 0.733
+  }
+}

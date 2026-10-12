@@ -1,0 +1,41 @@
+task: classification
+seed: 42
+dataset:
+  train_path: "data/processed/classification/train.jsonl"
+  dev_path: "data/processed/classification/dev.jsonl"
+  test_path: "data/processed/classification/test.jsonl"
+  challenge_path: "data/processed/classification/challenge.jsonl"
+  label_column: "label"
+  text_column: "text"
+
+model:
+  base_model: "bert-base-uncased"
+  num_labels: 3
+  max_seq_length: 128
+
+training:
+  method: "lora"            # full, lora, rslora, qlora
+  batch_size: 8
+  gradient_accumulation_steps: 1
+  learning_rate_peft: 2.0e-4       # LoRA / rsLoRA / QLoRA
+  learning_rate_full: 2.0e-5       # full fine-tuning
+  scheduler: "cosine"
+  warmup_ratio: 0.1
+  epochs: 20
+  early_stopping_patience: 4
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["query", "value"]
+
+quantization:
+  quant_type: "nf4"
+  use_double_quant: true
+
+evaluation:
+  bootstrap_iterations: 500
+  confidence_level: 0.95

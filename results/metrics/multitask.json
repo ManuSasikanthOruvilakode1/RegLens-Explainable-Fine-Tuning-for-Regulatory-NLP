@@ -1,0 +1,862 @@
+{
+  "multitask": [
+    {
+      "classification": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1_95ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy_95ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.9162,
+          1.0
+        ],
+        "selection_score": 1.0
+      },
+      "classification_challenge": {
+        "accuracy": 0.9333333333333333,
+        "macro_f1": 0.9312169312169312,
+        "macro_precision": 0.9393939393939394,
+        "macro_recall": 0.9333333333333332,
+        "macro_f1_95ci": [
+          0.8192,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.8333,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.7868,
+          0.9815
+        ],
+        "selection_score": 0.9312169312169312
+      },
+      "ner": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002,
+        "selection_score": 0.8000000000000002
+      },
+      "qa": {
+        "exact_match": 0.46153846153846156,
+        "f1": 0.6064102564102564,
+        "f1_95ci": [
+          0.3615,
+          0.8085
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "Fringe benefits tax is paid by employers"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "31 March"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "Payroll tax"
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "with the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "one-third"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "against capital gains"
+          }
+        ],
+        "selection_score": 0.6064102564102564
+      },
+      "_meta": {
+        "tasks": [
+          "classification",
+          "ner",
+          "qa"
+        ],
+        "epochs": 10,
+        "train_seconds": 632.1,
+        "seed": 42
+      }
+    },
+    {
+      "classification": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1_95ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy_95ci": [
+          1.0,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.9162,
+          1.0
+        ],
+        "selection_score": 1.0
+      },
+      "classification_challenge": {
+        "accuracy": 0.9666666666666667,
+        "macro_f1": 0.9665831244778612,
+        "macro_precision": 0.9696969696969697,
+        "macro_recall": 0.9666666666666667,
+        "macro_f1_95ci": [
+          0.8815,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.9,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.8333,
+          0.9941
+        ],
+        "selection_score": 0.9665831244778612
+      },
+      "ner": {
+        "precision": 0.8518518518518519,
+        "recall": 0.92,
+        "f1": 0.8846153846153846,
+        "selection_score": 0.8846153846153846
+      },
+      "qa": {
+        "exact_match": 0.6923076923076923,
+        "f1": 0.7587412587412588,
+        "f1_95ci": [
+          0.5175,
+          0.9231
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "31 March"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "state and territory"
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "at least twelve months"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "capital gains"
+          }
+        ],
+        "selection_score": 0.7587412587412588
+      },
+      "_meta": {
+        "tasks": [
+          "classification",
+          "ner",
+          "qa"
+        ],
+        "epochs": 8,
+        "train_seconds": 37.5,
+        "seed": 7
+      }
+    },
+    {
+      "classification": {
+        "accuracy": 0.9523809523809523,
+        "macro_f1": 0.9521367521367522,
+        "macro_precision": 0.9583333333333334,
+        "macro_recall": 0.9523809523809524,
+        "macro_f1_95ci": [
+          0.8751,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.881,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.8421,
+          0.9868
+        ],
+        "selection_score": 0.9521367521367522
+      },
+      "classification_challenge": {
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.8174603174603176,
+        "macro_precision": 0.8744588744588745,
+        "macro_recall": 0.8333333333333334,
+        "macro_f1_95ci": [
+          0.6491,
+          0.9563
+        ],
+        "accuracy_95ci": [
+          0.7,
+          0.9667
+        ],
+        "accuracy_wilson_95ci": [
+          0.6644,
+          0.9266
+        ],
+        "selection_score": 0.8174603174603176
+      },
+      "ner": {
+        "precision": 0.6206896551724138,
+        "recall": 0.72,
+        "f1": 0.6666666666666666,
+        "selection_score": 0.6666666666666666
+      },
+      "qa": {
+        "exact_match": 0.38461538461538464,
+        "f1": 0.6595238095238094,
+        "f1_95ci": [
+          0.4481,
+          0.8478
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "state and territory tax"
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions combine the wages"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "with the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "Rule 3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "twelve months"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies are not entitled to the CGT discount"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "capital gains"
+          }
+        ],
+        "selection_score": 0.6595238095238094
+      },
+      "_meta": {
+        "tasks": [
+          "classification",
+          "ner",
+          "qa"
+        ],
+        "epochs": 7,
+        "train_seconds": 30.3,
+        "seed": 1234
+      }
+    }
+  ],
+  "single_classification": [
+    {
+      "classification": {
+        "accuracy": 0.9761904761904762,
+        "macro_f1": 0.9761600681140911,
+        "macro_precision": 0.9777777777777779,
+        "macro_recall": 0.9761904761904763,
+        "macro_f1_95ci": [
+          0.922,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.9286,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.8768,
+          0.9958
+        ],
+        "selection_score": 0.9761600681140911
+      },
+      "classification_challenge": {
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.8277777777777778,
+        "macro_precision": 0.8714285714285714,
+        "macro_recall": 0.8333333333333334,
+        "macro_f1_95ci": [
+          0.6615,
+          0.9558
+        ],
+        "accuracy_95ci": [
+          0.6825,
+          0.9667
+        ],
+        "accuracy_wilson_95ci": [
+          0.6644,
+          0.9266
+        ],
+        "selection_score": 0.8277777777777778
+      },
+      "_meta": {
+        "tasks": [
+          "classification"
+        ],
+        "epochs": 9,
+        "train_seconds": 59.7,
+        "seed": 42
+      }
+    },
+    {
+      "classification": {
+        "accuracy": 0.9523809523809523,
+        "macro_f1": 0.9523505443045673,
+        "macro_precision": 0.953968253968254,
+        "macro_recall": 0.9523809523809524,
+        "macro_f1_95ci": [
+          0.8729,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.881,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.8421,
+          0.9868
+        ],
+        "selection_score": 0.9523505443045673
+      },
+      "classification_challenge": {
+        "accuracy": 0.8,
+        "macro_f1": 0.7888888888888889,
+        "macro_precision": 0.8555555555555555,
+        "macro_recall": 0.7999999999999999,
+        "macro_f1_95ci": [
+          0.6201,
+          0.928
+        ],
+        "accuracy_95ci": [
+          0.6333,
+          0.9333
+        ],
+        "accuracy_wilson_95ci": [
+          0.6269,
+          0.9049
+        ],
+        "selection_score": 0.7888888888888889
+      },
+      "_meta": {
+        "tasks": [
+          "classification"
+        ],
+        "epochs": 11,
+        "train_seconds": 24.2,
+        "seed": 7
+      }
+    },
+    {
+      "classification": {
+        "accuracy": 0.9285714285714286,
+        "macro_f1": 0.9297552308304997,
+        "macro_precision": 0.9411764705882352,
+        "macro_recall": 0.9285714285714285,
+        "macro_f1_95ci": [
+          0.8482,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.8571,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.8099,
+          0.9754
+        ],
+        "selection_score": 0.9297552308304997
+      },
+      "classification_challenge": {
+        "accuracy": 0.9333333333333333,
+        "macro_f1": 0.934609250398724,
+        "macro_precision": 0.9444444444444445,
+        "macro_recall": 0.9333333333333332,
+        "macro_f1_95ci": [
+          0.8253,
+          1.0
+        ],
+        "accuracy_95ci": [
+          0.8333,
+          1.0
+        ],
+        "accuracy_wilson_95ci": [
+          0.7868,
+          0.9815
+        ],
+        "selection_score": 0.934609250398724
+      },
+      "_meta": {
+        "tasks": [
+          "classification"
+        ],
+        "epochs": 8,
+        "train_seconds": 15.9,
+        "seed": 1234
+      }
+    }
+  ],
+  "single_ner": [
+    {
+      "ner": {
+        "precision": 0.6785714285714286,
+        "recall": 0.76,
+        "f1": 0.7169811320754718,
+        "selection_score": 0.7169811320754718
+      },
+      "_meta": {
+        "tasks": [
+          "ner"
+        ],
+        "epochs": 13,
+        "train_seconds": 7.9,
+        "seed": 42
+      }
+    },
+    {
+      "ner": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8,
+        "f1": 0.7843137254901961,
+        "selection_score": 0.7843137254901961
+      },
+      "_meta": {
+        "tasks": [
+          "ner"
+        ],
+        "epochs": 17,
+        "train_seconds": 10.0,
+        "seed": 7
+      }
+    },
+    {
+      "ner": {
+        "precision": 0.6923076923076923,
+        "recall": 0.72,
+        "f1": 0.7058823529411765,
+        "selection_score": 0.7058823529411765
+      },
+      "_meta": {
+        "tasks": [
+          "ner"
+        ],
+        "epochs": 18,
+        "train_seconds": 10.8,
+        "seed": 1234
+      }
+    }
+  ],
+  "single_qa": [
+    {
+      "qa": {
+        "exact_match": 0.5384615384615384,
+        "f1": 0.7153846153846154,
+        "f1_95ci": [
+          0.4987,
+          0.9028
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "by employers"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "31 March"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "."
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "with the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "at least twelve months"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "against capital gains"
+          }
+        ],
+        "selection_score": 0.7153846153846154
+      },
+      "_meta": {
+        "tasks": [
+          "qa"
+        ],
+        "epochs": 20,
+        "train_seconds": 9.3,
+        "seed": 42
+      }
+    },
+    {
+      "qa": {
+        "exact_match": 0.6153846153846154,
+        "f1": 0.7715617715617715,
+        "f1_95ci": [
+          0.5583,
+          0.9231
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "by employers"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "31 March"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "territory"
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "at least twelve months"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "capital gains"
+          }
+        ],
+        "selection_score": 0.7715617715617715
+      },
+      "_meta": {
+        "tasks": [
+          "qa"
+        ],
+        "epochs": 20,
+        "train_seconds": 9.4,
+        "seed": 7
+      }
+    },
+    {
+      "qa": {
+        "exact_match": 0.46153846153846156,
+        "f1": 0.6995540691192866,
+        "f1_95ci": [
+          0.5043,
+          0.8462
+        ],
+        "n_questions": 13,
+        "examples": [
+          {
+            "question": "Who pays fringe benefits tax?",
+            "gold": "employers",
+            "predicted": "by employers"
+          },
+          {
+            "question": "When does the FBT year begin?",
+            "gold": "1 April",
+            "predicted": "31 March"
+          },
+          {
+            "question": "What is the FBT rate?",
+            "gold": "47 percent",
+            "predicted": "47 percent"
+          },
+          {
+            "question": "What level of government levies payroll tax?",
+            "gold": "state and territory",
+            "predicted": "state and territory tax on wages paid or payable by an employer to its employees once total Australian wages exceed a threshold."
+          },
+          {
+            "question": "Which provisions combine the wages of related businesses?",
+            "gold": "grouping provisions",
+            "predicted": "grouping provisions combine the wages"
+          },
+          {
+            "question": "Where do employers register for payroll tax?",
+            "gold": "the revenue office in each state where they pay wages",
+            "predicted": "with the revenue office"
+          },
+          {
+            "question": "Which listing rule sets out the continuous disclosure obligation?",
+            "gold": "Listing Rule 3.1",
+            "predicted": "3.1"
+          },
+          {
+            "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+            "gold": "section 674",
+            "predicted": "section 674"
+          },
+          {
+            "question": "What may ASIC issue for suspected breaches?",
+            "gold": "infringement notices",
+            "predicted": "infringement notices"
+          },
+          {
+            "question": "How long must an individual hold an asset to receive the CGT discount?",
+            "gold": "at least twelve months",
+            "predicted": "twelve months"
+          },
+          {
+            "question": "What discount do complying superannuation funds receive?",
+            "gold": "one-third",
+            "predicted": "one-third"
+          },
+          {
+            "question": "Which entities are not entitled to the CGT discount?",
+            "gold": "Companies",
+            "predicted": "Companies"
+          },
+          {
+            "question": "Against what can capital losses be offset?",
+            "gold": "capital gains",
+            "predicted": "capital gains"
+          }
+        ],
+        "selection_score": 0.6995540691192866
+      },
+      "_meta": {
+        "tasks": [
+          "qa"
+        ],
+        "epochs": 20,
+        "train_seconds": 9.2,
+        "seed": 1234
+      }
+    }
+  ]
+}

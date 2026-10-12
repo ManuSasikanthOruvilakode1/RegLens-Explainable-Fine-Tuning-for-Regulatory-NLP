@@ -1,0 +1,34 @@
+task: summarisation
+seed: 42
+dataset:
+  train_path: "data/processed/summarisation/train.jsonl"
+  test_path: "data/processed/summarisation/test.jsonl"
+  dev_size: 5               # carved deterministically from train for early stopping
+
+model:
+  base_model: "google/flan-t5-base"
+  prompt: "Summarize in one sentence: "
+  max_source_length: 256
+  max_target_length: 64
+  num_beams: 4
+
+training:
+  method: "lora"
+  batch_size: 4
+  learning_rate_peft: 1.0e-3
+  learning_rate_full: 3.0e-4
+  scheduler: "linear"
+  warmup_ratio: 0.1
+  epochs: 30
+  early_stopping_patience: 4
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["q", "v"]
+
+evaluation:
+  bootstrap_iterations: 500

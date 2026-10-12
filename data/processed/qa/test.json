@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "title": "Fringe benefits tax",
+      "paragraphs": [
+        {
+          "context": "Fringe benefits tax is paid by employers on certain benefits provided to employees or their associates in place of salary or wages. The FBT year runs from 1 April to 31 March, which differs from the income tax year. Common fringe benefits include the private use of a work car, low-interest loans and paying an employee's private health insurance. The FBT rate is 47 percent, equal to the top marginal tax rate plus the Medicare levy, and is applied to the grossed-up taxable value of benefits.",
+          "qas": [
+            {
+              "id": "test-0-0",
+              "question": "Who pays fringe benefits tax?",
+              "answers": [
+                {
+                  "text": "employers",
+                  "answer_start": 31
+                }
+              ]
+            },
+            {
+              "id": "test-0-1",
+              "question": "When does the FBT year begin?",
+              "answers": [
+                {
+                  "text": "1 April",
+                  "answer_start": 155
+                }
+              ]
+            },
+            {
+              "id": "test-0-2",
+              "question": "What is the FBT rate?",
+              "answers": [
+                {
+                  "text": "47 percent",
+                  "answer_start": 364
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Payroll tax",
+      "paragraphs": [
+        {
+          "context": "Payroll tax is a state and territory tax on wages paid or payable by an employer to its employees once total Australian wages exceed a threshold. Each jurisdiction sets its own rate and threshold, and grouping provisions combine the wages of related businesses when testing the threshold. Taxable wages commonly include salaries, superannuation contributions, fringe benefits and certain contractor payments. Employers register with the revenue office in each state where they pay wages and lodge periodic returns.",
+          "qas": [
+            {
+              "id": "test-1-0",
+              "question": "What level of government levies payroll tax?",
+              "answers": [
+                {
+                  "text": "state and territory",
+                  "answer_start": 17
+                }
+              ]
+            },
+            {
+              "id": "test-1-1",
+              "question": "Which provisions combine the wages of related businesses?",
+              "answers": [
+                {
+                  "text": "grouping provisions",
+                  "answer_start": 201
+                }
+              ]
+            },
+            {
+              "id": "test-1-2",
+              "question": "Where do employers register for payroll tax?",
+              "answers": [
+                {
+                  "text": "the revenue office in each state where they pay wages",
+                  "answer_start": 433
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Continuous disclosure",
+      "paragraphs": [
+        {
+          "context": "Entities listed on the Australian Securities Exchange must immediately disclose information that a reasonable person would expect to have a material effect on the price or value of their securities. Listing Rule 3.1 sets out the obligation, and section 674 of the Corporations Act gives it statutory force. Limited exceptions apply where the information is confidential, a reasonable person would not expect it to be disclosed, and it concerns an incomplete proposal or is a trade secret. ASIC may issue infringement notices for suspected breaches.",
+          "qas": [
+            {
+              "id": "test-2-0",
+              "question": "Which listing rule sets out the continuous disclosure obligation?",
+              "answers": [
+                {
+                  "text": "Listing Rule 3.1",
+                  "answer_start": 199
+                }
+              ]
+            },
+            {
+              "id": "test-2-1",
+              "question": "Which section of the Corporations Act gives continuous disclosure statutory force?",
+              "answers": [
+                {
+                  "text": "section 674",
+                  "answer_start": 245
+                }
+              ]
+            },
+            {
+              "id": "test-2-2",
+              "question": "What may ASIC issue for suspected breaches?",
+              "answers": [
+                {
+                  "text": "infringement notices",
+                  "answer_start": 504
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Capital gains tax discount",
+      "paragraphs": [
+        {
+          "context": "A capital gain or loss arises when a CGT event happens, most commonly the sale of an asset such as shares or an investment property. Individuals and trusts that hold an asset for at least twelve months before the CGT event can reduce the capital gain by 50 percent, while complying superannuation funds receive a discount of one-third. Companies are not entitled to the CGT discount. Capital losses can only be offset against capital gains and may be carried forward indefinitely.",
+          "qas": [
+            {
+              "id": "test-3-0",
+              "question": "How long must an individual hold an asset to receive the CGT discount?",
+              "answers": [
+                {
+                  "text": "at least twelve months",
+                  "answer_start": 179
+                }
+              ]
+            },
+            {
+              "id": "test-3-1",
+              "question": "What discount do complying superannuation funds receive?",
+              "answers": [
+                {
+                  "text": "one-third",
+                  "answer_start": 325
+                }
+              ]
+            },
+            {
+              "id": "test-3-2",
+              "question": "Which entities are not entitled to the CGT discount?",
+              "answers": [
+                {
+                  "text": "Companies",
+                  "answer_start": 336
+                }
+              ]
+            },
+            {
+              "id": "test-3-3",
+              "question": "Against what can capital losses be offset?",
+              "answers": [
+                {
+                  "text": "capital gains",
+                  "answer_start": 426
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "systems": {
+    "lead-1 (first sentence)": {
+      "predictions": [
+        "The Australian Prudential Regulation Authority supervises authorised deposit-taking institutions, general insurers, life insurers, private health insurers and most superannuation funds.",
+        "Fringe benefits tax is paid by employers on certain benefits provided to employees or their associates in place of salary or wages.",
+        "The goods and services tax applies to taxable supplies made for consideration in the course of an enterprise connected with the indirect tax zone.",
+        "An employee is protected from unfair dismissal if they have completed the minimum employment period and either earn less than the high income threshold or are covered by an award or enterprise agreement.",
+        "Enterprise bargaining allows employers, employees and their bargaining representatives to negotiate an agreement tailored to a particular workplace.",
+        "Employees with at least twelve months of continuous service can request flexible working arrangements if they are a parent of a school-age child, a carer, have a disability, are 55 or older, are pregnant, or are experiencing family and domestic violence.",
+        "Goods and services tax is a broad-based tax of 10 percent on most goods, services and other items sold or consumed in Australia.",
+        "Under the National Employment Standards, full-time and part-time employees accrue four weeks of paid annual leave for each year of service, with shift workers entitled to an additional week.",
+        "A capital gain or loss arises when a CGT event happens, most commonly the sale of an asset such as shares or an investment property.",
+        "The market integrity rules supplement the Corporations Act by setting out requirements for market participants on licensed financial markets.",
+        "An employee who believes they were unfairly dismissed can apply to the Fair Work Commission.",
+        "An Australian financial services licence is required to carry on a financial services business in Australia."
+      ],
+      "rouge1": 0.3643,
+      "rouge1_95ci": [
+        0.2842,
+        0.4419
+      ],
+      "rouge2": 0.1808,
+      "rouge2_95ci": [
+        0.1114,
+        0.241
+      ],
+      "rougeL": 0.301,
+      "rougeL_95ci": [
+        0.2323,
+        0.3738
+      ]
+    },
+    "google/flan-t5-base zero-shot": {
+      "predictions": [
+        "The Australian Prudential Regulation Authority (APRA) regulates deposit-taking institutions, general insurers, life insurers, private health insurers and most superannuation funds.",
+        "Employers in England and Wales are required to pay a fringe benefits tax (FBT) rate of 47 percent.",
+        "Identify the goods and services tax (GST).",
+        "Find out if you are protected from unfair dismissal.",
+        "Understand enterprise bargaining.",
+        "Request a flexible working arrangement if you are a parent or carer.",
+        "Register for GST.",
+        "Understand the benefits of paid annual leave.",
+        "Understand how a CGT event occurs. Understand how a CGT event occurs.",
+        "In the UK, insider trading is regulated by the Financial Conduct Authority (FCA).",
+        "Apply to the Fair Work Commission if you were unfairly dismissed.",
+        "Obtain an Australian financial services licence."
+      ],
+      "rouge1": 0.2658,
+      "rouge1_95ci": [
+        0.2057,
+        0.3258
+      ],
+      "rouge2": 0.1264,
+      "rouge2_95ci": [
+        0.0728,
+        0.1854
+      ],
+      "rougeL": 0.2271,
+      "rougeL_95ci": [
+        0.181,
+        0.2781
+      ]
+    },
+    "google/flan-t5-base + lora": {
+      "predictions": [
+        "The Australian Prudential Regulation Authority supervises authorised deposit-taking institutions, general insurers, life insurers, private health insurers and superannuation funds.",
+        "Employers pay fringe benefits tax on employee benefits, which run from April to March, and the FBT rate is 47 percent, equal to the top marginal tax rate plus the Medicare levy.",
+        "Input-taxed supplies, such as residential rent and financial supplies, do not attract GST and the supplier cannot claim input tax credits for acquisitions relating to them.",
+        "Employees are protected from unfair dismissal if they earn less than the high income threshold or are covered by an award or enterprise agreement.",
+        "Enterprise bargaining allows employers, employees and bargaining representatives to negotiate a specific workplace agreement, and bargaining representatives must meet good faith bargaining requirements.",
+        "Employees with at least twelve months of continuous service can request flexible working arrangements if they are a parent, carer, 55 or older, pregnant or experiencing family and domestic violence.",
+        "Goods and services tax is a broad-based tax of 10 percent on goods, services and other items sold or consumed in Australia. Registered businesses report GST on their business activity statement and can claim credits for GST included in the price of business purchases.",
+        "Full-time and part-time employees accrue four weeks paid annual leave for each year, while shift workers receive an additional week. Casual employees do not receive paid annual leave but are compensated through a casual loading of 25 percent.",
+        "Individuals and trusts can reduce capital gains by 50 percent, while superannuation funds receive a discount of one-third. Capital losses cannot be offset against capital gains and can be carried forward indefinitely.",
+        "Market integrity rules supplement the Corporations Act to set market participants on licensed financial markets, and insider trading occurs when a person in possession of inside information trades in relevant financial products.",
+        "Employees who claim unfair dismissal can apply to the Fair Work Commission within 21 days of the dismissal.",
+        "A financial services licence is required to run a financial services business in Australia and licensees must comply with general obligations, including a dispute resolution system and external complaints authority."
+      ],
+      "rouge1": 0.4579,
+      "rouge1_95ci": [
+        0.3948,
+        0.5178
+      ],
+      "rouge2": 0.2169,
+      "rouge2_95ci": [
+        0.1564,
+        0.2851
+      ],
+      "rougeL": 0.376,
+      "rougeL_95ci": [
+        0.3154,
+        0.4282
+      ]
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.4694,
+      "dev_rougeL": 0.1961
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.3029,
+      "dev_rougeL": 0.2065
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.013,
+      "dev_rougeL": 0.4042
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6993,
+      "dev_rougeL": 0.4196
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.504,
+      "dev_rougeL": 0.4505
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.3869,
+      "dev_rougeL": 0.4411
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.1468,
+      "dev_rougeL": 0.4614
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.9892,
+      "dev_rougeL": 0.4281
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.8534,
+      "dev_rougeL": 0.4629
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.8024,
+      "dev_rougeL": 0.4578
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7152,
+      "dev_rougeL": 0.5047
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.6516,
+      "dev_rougeL": 0.4929
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.5212,
+      "dev_rougeL": 0.4717
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.4875,
+      "dev_rougeL": 0.5038
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.4773,
+      "dev_rougeL": 0.4993
+    }
+  ],
+  "train_seconds": 42.2
+}

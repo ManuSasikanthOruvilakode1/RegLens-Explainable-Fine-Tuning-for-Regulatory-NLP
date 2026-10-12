@@ -1,0 +1,938 @@
+{
+  "baseline": {
+    "test": {
+      "accuracy": 0.8095238095238095,
+      "macro_f1": 0.8075850871549797,
+      "macro_precision": 0.8147310206133737,
+      "macro_recall": 0.8095238095238094,
+      "accuracy_wilson_95ci": [
+        0.667,
+        0.9002
+      ]
+    },
+    "challenge": {
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.6609427609427609,
+      "macro_precision": 0.6638888888888889,
+      "macro_recall": 0.6666666666666666,
+      "accuracy_wilson_95ci": [
+        0.4878,
+        0.8077
+      ]
+    }
+  },
+  "runs": {
+    "full_ft": [
+      {
+        "run_name": "ablation_full_ft_s42",
+        "base_model": "bert-base-uncased",
+        "method": "full",
+        "trainable_params": 109484547,
+        "total_params": 109484547,
+        "train_seconds": 92.2,
+        "peak_gpu_mib": 2114.3,
+        "epochs_run": 8,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.271,
+          "latency_ms_per_sample": 8.228
+        },
+        "challenge": {
+          "accuracy": 0.8666666666666667,
+          "macro_f1": 0.8622895622895622,
+          "macro_precision": 0.8694444444444445,
+          "macro_recall": 0.8666666666666666,
+          "macro_f1_95ci": [
+            0.7013,
+            0.9677
+          ],
+          "accuracy_95ci": [
+            0.7333,
+            0.9667
+          ],
+          "accuracy_wilson_95ci": [
+            0.7032,
+            0.9469
+          ],
+          "log_loss": 0.7781,
+          "latency_ms_per_sample": 5.443
+        }
+      },
+      {
+        "run_name": "ablation_full_ft_s7",
+        "base_model": "bert-base-uncased",
+        "method": "full",
+        "trainable_params": 109484547,
+        "total_params": 109484547,
+        "train_seconds": 107.1,
+        "peak_gpu_mib": 2115.2,
+        "epochs_run": 10,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.1157,
+          "latency_ms_per_sample": 10.979
+        },
+        "challenge": {
+          "accuracy": 0.4666666666666667,
+          "macro_f1": 0.3848039215686274,
+          "macro_precision": 0.40277777777777785,
+          "macro_recall": 0.4666666666666666,
+          "macro_f1_95ci": [
+            0.2391,
+            0.515
+          ],
+          "accuracy_95ci": [
+            0.3,
+            0.6667
+          ],
+          "accuracy_wilson_95ci": [
+            0.3023,
+            0.6386
+          ],
+          "log_loss": 0.923,
+          "latency_ms_per_sample": 6.768
+        }
+      },
+      {
+        "run_name": "ablation_full_ft_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "full",
+        "trainable_params": 109484547,
+        "total_params": 109484547,
+        "train_seconds": 22.6,
+        "peak_gpu_mib": 2115.2,
+        "epochs_run": 10,
+        "test": {
+          "accuracy": 0.9523809523809523,
+          "macro_f1": 0.9523505443045673,
+          "macro_precision": 0.953968253968254,
+          "macro_recall": 0.9523809523809524,
+          "macro_f1_95ci": [
+            0.8761,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.881,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8421,
+            0.9868
+          ],
+          "log_loss": 0.115,
+          "latency_ms_per_sample": 1.556
+        },
+        "challenge": {
+          "accuracy": 0.8333333333333334,
+          "macro_f1": 0.8319865319865319,
+          "macro_precision": 0.8416666666666667,
+          "macro_recall": 0.8333333333333334,
+          "macro_f1_95ci": [
+            0.6889,
+            0.9415
+          ],
+          "accuracy_95ci": [
+            0.7,
+            0.9333
+          ],
+          "accuracy_wilson_95ci": [
+            0.6644,
+            0.9266
+          ],
+          "log_loss": 0.6131,
+          "latency_ms_per_sample": 1.461
+        }
+      }
+    ],
+    "lora_r16": [
+      {
+        "run_name": "ablation_lora_r16_s42",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 11.0,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 13,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.0251,
+          "latency_ms_per_sample": 2.068
+        },
+        "challenge": {
+          "accuracy": 0.7333333333333333,
+          "macro_f1": 0.7380952380952381,
+          "macro_precision": 0.8518518518518517,
+          "macro_recall": 0.7333333333333334,
+          "macro_f1_95ci": [
+            0.5426,
+            0.888
+          ],
+          "accuracy_95ci": [
+            0.5667,
+            0.9
+          ],
+          "accuracy_wilson_95ci": [
+            0.5555,
+            0.8582
+          ],
+          "log_loss": 0.6485,
+          "latency_ms_per_sample": 1.675
+        }
+      },
+      {
+        "run_name": "ablation_lora_r16_s7",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 65.7,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 14,
+        "test": {
+          "accuracy": 0.9523809523809523,
+          "macro_f1": 0.9523505443045673,
+          "macro_precision": 0.953968253968254,
+          "macro_recall": 0.9523809523809524,
+          "macro_f1_95ci": [
+            0.8671,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.881,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8421,
+            0.9868
+          ],
+          "log_loss": 0.1678,
+          "latency_ms_per_sample": 11.181
+        },
+        "challenge": {
+          "accuracy": 0.5,
+          "macro_f1": 0.3896103896103896,
+          "macro_precision": 0.3240740740740741,
+          "macro_recall": 0.5,
+          "macro_f1_95ci": [
+            0.2706,
+            0.5006
+          ],
+          "accuracy_95ci": [
+            0.3333,
+            0.7
+          ],
+          "accuracy_wilson_95ci": [
+            0.3315,
+            0.6685
+          ],
+          "log_loss": 1.5906,
+          "latency_ms_per_sample": 7.183
+        }
+      },
+      {
+        "run_name": "ablation_lora_r16_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 13.2,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 20,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.0776,
+          "latency_ms_per_sample": 1.736
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.6111111111111112,
+          "macro_precision": 0.7619047619047619,
+          "macro_recall": 0.6666666666666666,
+          "macro_f1_95ci": [
+            0.4372,
+            0.8048
+          ],
+          "accuracy_95ci": [
+            0.5,
+            0.8333
+          ],
+          "accuracy_wilson_95ci": [
+            0.4878,
+            0.8077
+          ],
+          "log_loss": 0.9945,
+          "latency_ms_per_sample": 1.539
+        }
+      }
+    ],
+    "rslora_r16": [
+      {
+        "run_name": "ablation_rslora_r16_s42",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 7.5,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 11,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.0154,
+          "latency_ms_per_sample": 1.841
+        },
+        "challenge": {
+          "accuracy": 0.8666666666666667,
+          "macro_f1": 0.8703703703703703,
+          "macro_precision": 0.9047619047619048,
+          "macro_recall": 0.8666666666666667,
+          "macro_f1_95ci": [
+            0.7173,
+            0.9726
+          ],
+          "accuracy_95ci": [
+            0.7333,
+            0.9667
+          ],
+          "accuracy_wilson_95ci": [
+            0.7032,
+            0.9469
+          ],
+          "log_loss": 0.4431,
+          "latency_ms_per_sample": 1.548
+        }
+      },
+      {
+        "run_name": "ablation_rslora_r16_s7",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 6.8,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 10,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9134,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.1651,
+          "latency_ms_per_sample": 1.811
+        },
+        "challenge": {
+          "accuracy": 0.43333333333333335,
+          "macro_f1": 0.3222222222222222,
+          "macro_precision": 0.26666666666666666,
+          "macro_recall": 0.43333333333333335,
+          "macro_f1_95ci": [
+            0.1992,
+            0.4576
+          ],
+          "accuracy_95ci": [
+            0.2667,
+            0.6333
+          ],
+          "accuracy_wilson_95ci": [
+            0.2738,
+            0.608
+          ],
+          "log_loss": 1.4023,
+          "latency_ms_per_sample": 1.298
+        }
+      },
+      {
+        "run_name": "ablation_rslora_r16_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 592131,
+        "total_params": 110076678,
+        "train_seconds": 9.0,
+        "peak_gpu_mib": 686.7,
+        "epochs_run": 11,
+        "test": {
+          "accuracy": 0.9285714285714286,
+          "macro_f1": 0.9297552308304997,
+          "macro_precision": 0.9411764705882352,
+          "macro_recall": 0.9285714285714285,
+          "macro_f1_95ci": [
+            0.8328,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.8333,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8099,
+            0.9754
+          ],
+          "log_loss": 0.1697,
+          "latency_ms_per_sample": 1.906
+        },
+        "challenge": {
+          "accuracy": 0.7666666666666667,
+          "macro_f1": 0.7531792444073145,
+          "macro_precision": 0.8627450980392157,
+          "macro_recall": 0.7666666666666666,
+          "macro_f1_95ci": [
+            0.589,
+            0.9102
+          ],
+          "accuracy_95ci": [
+            0.6,
+            0.9333
+          ],
+          "accuracy_wilson_95ci": [
+            0.5907,
+            0.8821
+          ],
+          "log_loss": 0.6995,
+          "latency_ms_per_sample": 1.52
+        }
+      }
+    ],
+    "lora_r64": [
+      {
+        "run_name": "ablation_lora_r64_s42",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 7.6,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 11,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.0076,
+          "latency_ms_per_sample": 1.47
+        },
+        "challenge": {
+          "accuracy": 0.8,
+          "macro_f1": 0.8054298642533936,
+          "macro_precision": 0.875,
+          "macro_recall": 0.7999999999999999,
+          "macro_f1_95ci": [
+            0.6163,
+            0.9343
+          ],
+          "accuracy_95ci": [
+            0.6333,
+            0.9333
+          ],
+          "accuracy_wilson_95ci": [
+            0.6269,
+            0.9049
+          ],
+          "log_loss": 0.6218,
+          "latency_ms_per_sample": 1.557
+        }
+      },
+      {
+        "run_name": "ablation_lora_r64_s7",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 8.6,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 9,
+        "test": {
+          "accuracy": 0.9285714285714286,
+          "macro_f1": 0.927741935483871,
+          "macro_precision": 0.9411764705882352,
+          "macro_recall": 0.9285714285714285,
+          "macro_f1_95ci": [
+            0.8307,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.8333,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8099,
+            0.9754
+          ],
+          "log_loss": 0.3127,
+          "latency_ms_per_sample": 1.629
+        },
+        "challenge": {
+          "accuracy": 0.5,
+          "macro_f1": 0.3896103896103896,
+          "macro_precision": 0.3240740740740741,
+          "macro_recall": 0.5,
+          "macro_f1_95ci": [
+            0.2664,
+            0.5017
+          ],
+          "accuracy_95ci": [
+            0.3333,
+            0.7
+          ],
+          "accuracy_wilson_95ci": [
+            0.3315,
+            0.6685
+          ],
+          "log_loss": 1.0341,
+          "latency_ms_per_sample": 1.545
+        }
+      },
+      {
+        "run_name": "ablation_lora_r64_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "lora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 8.6,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 12,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.0526,
+          "latency_ms_per_sample": 1.789
+        },
+        "challenge": {
+          "accuracy": 0.5333333333333333,
+          "macro_f1": 0.4305555555555555,
+          "macro_precision": 0.40151515151515155,
+          "macro_recall": 0.5333333333333333,
+          "macro_f1_95ci": [
+            0.2951,
+            0.5501
+          ],
+          "accuracy_95ci": [
+            0.3667,
+            0.7333
+          ],
+          "accuracy_wilson_95ci": [
+            0.3614,
+            0.6977
+          ],
+          "log_loss": 1.1241,
+          "latency_ms_per_sample": 1.556
+        }
+      }
+    ],
+    "rslora_r64": [
+      {
+        "run_name": "ablation_rslora_r64_s42",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 7.2,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 7,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.172,
+          "latency_ms_per_sample": 1.851
+        },
+        "challenge": {
+          "accuracy": 0.8333333333333334,
+          "macro_f1": 0.8378676158996524,
+          "macro_precision": 0.8603988603988603,
+          "macro_recall": 0.8333333333333334,
+          "macro_f1_95ci": [
+            0.6916,
+            0.9529
+          ],
+          "accuracy_95ci": [
+            0.7,
+            0.9508
+          ],
+          "accuracy_wilson_95ci": [
+            0.6644,
+            0.9266
+          ],
+          "log_loss": 0.457,
+          "latency_ms_per_sample": 1.577
+        }
+      },
+      {
+        "run_name": "ablation_rslora_r64_s7",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 7.1,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 10,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9234,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.0638,
+          "latency_ms_per_sample": 1.971
+        },
+        "challenge": {
+          "accuracy": 0.6333333333333333,
+          "macro_f1": 0.5506060606060607,
+          "macro_precision": 0.7476190476190476,
+          "macro_recall": 0.6333333333333333,
+          "macro_f1_95ci": [
+            0.3963,
+            0.7251
+          ],
+          "accuracy_95ci": [
+            0.4667,
+            0.8
+          ],
+          "accuracy_wilson_95ci": [
+            0.4551,
+            0.7813
+          ],
+          "log_loss": 1.2435,
+          "latency_ms_per_sample": 1.52
+        }
+      },
+      {
+        "run_name": "ablation_rslora_r64_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "rslora",
+        "trainable_params": 2361603,
+        "total_params": 111846150,
+        "train_seconds": 8.1,
+        "peak_gpu_mib": 710.8,
+        "epochs_run": 9,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.1014,
+          "latency_ms_per_sample": 2.251
+        },
+        "challenge": {
+          "accuracy": 0.7666666666666667,
+          "macro_f1": 0.7685185185185185,
+          "macro_precision": 0.7976190476190476,
+          "macro_recall": 0.7666666666666667,
+          "macro_f1_95ci": [
+            0.5956,
+            0.9126
+          ],
+          "accuracy_95ci": [
+            0.6,
+            0.9
+          ],
+          "accuracy_wilson_95ci": [
+            0.5907,
+            0.8821
+          ],
+          "log_loss": 0.5766,
+          "latency_ms_per_sample": 1.55
+        }
+      }
+    ],
+    "qlora_r16": [
+      {
+        "run_name": "ablation_qlora_r16_s42",
+        "base_model": "bert-base-uncased",
+        "method": "qlora",
+        "trainable_params": 592131,
+        "total_params": 67314438,
+        "train_seconds": 12.4,
+        "peak_gpu_mib": 269.5,
+        "epochs_run": 12,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.0947,
+          "latency_ms_per_sample": 2.387
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.5802469135802469,
+          "macro_precision": 0.7794117647058824,
+          "macro_recall": 0.6666666666666666,
+          "macro_f1_95ci": [
+            0.4281,
+            0.7409
+          ],
+          "accuracy_95ci": [
+            0.4667,
+            0.8333
+          ],
+          "accuracy_wilson_95ci": [
+            0.4878,
+            0.8077
+          ],
+          "log_loss": 0.9732,
+          "latency_ms_per_sample": 1.764
+        }
+      },
+      {
+        "run_name": "ablation_qlora_r16_s7",
+        "base_model": "bert-base-uncased",
+        "method": "qlora",
+        "trainable_params": 592131,
+        "total_params": 67314438,
+        "train_seconds": 15.0,
+        "peak_gpu_mib": 312.9,
+        "epochs_run": 15,
+        "test": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_95ci": [
+            1.0,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.9162,
+            1.0
+          ],
+          "log_loss": 0.0316,
+          "latency_ms_per_sample": 1.699
+        },
+        "challenge": {
+          "accuracy": 0.7666666666666667,
+          "macro_f1": 0.740981240981241,
+          "macro_precision": 0.8214285714285715,
+          "macro_recall": 0.7666666666666666,
+          "macro_f1_95ci": [
+            0.5567,
+            0.8978
+          ],
+          "accuracy_95ci": [
+            0.6,
+            0.9
+          ],
+          "accuracy_wilson_95ci": [
+            0.5907,
+            0.8821
+          ],
+          "log_loss": 0.7358,
+          "latency_ms_per_sample": 1.831
+        }
+      },
+      {
+        "run_name": "ablation_qlora_r16_s1234",
+        "base_model": "bert-base-uncased",
+        "method": "qlora",
+        "trainable_params": 592131,
+        "total_params": 67314438,
+        "train_seconds": 12.9,
+        "peak_gpu_mib": 355.6,
+        "epochs_run": 13,
+        "test": {
+          "accuracy": 0.9761904761904762,
+          "macro_f1": 0.9761600681140911,
+          "macro_precision": 0.9777777777777779,
+          "macro_recall": 0.9761904761904763,
+          "macro_f1_95ci": [
+            0.9182,
+            1.0
+          ],
+          "accuracy_95ci": [
+            0.9286,
+            1.0
+          ],
+          "accuracy_wilson_95ci": [
+            0.8768,
+            0.9958
+          ],
+          "log_loss": 0.1128,
+          "latency_ms_per_sample": 2.172
+        },
+        "challenge": {
+          "accuracy": 0.7333333333333333,
+          "macro_f1": 0.6705516705516706,
+          "macro_precision": 0.8194444444444445,
+          "macro_recall": 0.7333333333333334,
+          "macro_f1_95ci": [
+            0.5185,
+            0.8458
+          ],
+          "accuracy_95ci": [
+            0.5667,
+            0.9
+          ],
+          "accuracy_wilson_95ci": [
+            0.5555,
+            0.8582
+          ],
+          "log_loss": 0.8101,
+          "latency_ms_per_sample": 1.768
+        }
+      }
+    ]
+  }
+}

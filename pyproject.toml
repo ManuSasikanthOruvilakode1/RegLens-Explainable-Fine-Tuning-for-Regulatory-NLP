@@ -1,0 +1,66 @@
+[project]
+name = "australian-nlp-fine-tuning"
+version = "1.0.0"
+description = "Transformer fine-tuning suite on domain-specific Australian regulatory and legal corpora."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+deeplearning = [
+    "torch>=2.0.0",
+    "transformers>=4.35.0",
+    "peft>=0.6.0",
+    "datasets>=2.14.0",
+    "seqeval>=1.2.2",
+    "evaluate>=0.4.0",
+    "captum>=0.7.0",
+    "mlflow>=2.8.0",
+    "accelerate>=0.26.0",
+    "bitsandbytes>=0.43.0",
+    "rouge-score>=0.1.2",
+    "sentencepiece>=0.2.0",
+    "onnx>=1.16.0",
+    "onnxscript>=0.2.0",
+    "onnxruntime>=1.18.0",
+]
+demo = [
+    "gradio>=5.0.0",
+]
+notebooks = [
+    "matplotlib>=3.8.0",
+    "pandas>=2.0.0",
+    "nbformat>=5.9.0",
+    "nbclient>=0.10.0",
+    "ipykernel>=6.29.0",
+]
+
+
+# torch is resolved from the CUDA wheel index on Windows/Linux; other platforms use PyPI
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'win32' or sys_platform == 'linux'" }]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Superannuation guarantee",
+    "context": "The superannuation guarantee requires employers to contribute a minimum percentage of an eligible employee's ordinary time earnings to a complying superannuation fund. The rate rose to 11.5 percent on 1 July 2024 and to 12 percent on 1 July 2025. Contributions must be paid at least four times a year, by the 28th day after the end of each quarter. Employers who miss a quarterly deadline must lodge a superannuation guarantee charge statement and pay the charge, which includes the shortfall, nominal interest and an administration fee.",
+    "qas": [
+      {"question": "What is the superannuation guarantee rate from 1 July 2025?", "answer": "12 percent"},
+      {"question": "By which day after the end of each quarter must contributions be paid?", "answer": "the 28th day"},
+      {"question": "What must employers lodge if they miss a quarterly deadline?", "answer": "a superannuation guarantee charge statement"}
+    ]
+  },
+  {
+    "title": "Unfair dismissal",
+    "context": "An employee who believes they were unfairly dismissed can apply to the Fair Work Commission. The application must be made within 21 days after the dismissal took effect. To be protected, an employee generally needs to have completed a minimum employment period of six months, or twelve months if the employer is a small business with fewer than fifteen employees. The Commission may order reinstatement or, where reinstatement is inappropriate, compensation capped at six months of pay.",
+    "qas": [
+      {"question": "Where does an employee apply if they believe they were unfairly dismissed?", "answer": "the Fair Work Commission"},
+      {"question": "Within how many days must an unfair dismissal application be made?", "answer": "21 days"},
+      {"question": "What is the minimum employment period for a small business employee?", "answer": "twelve months"},
+      {"question": "What is unfair dismissal compensation capped at?", "answer": "six months of pay"}
+    ]
+  },
+  {
+    "title": "Director identification numbers",
+    "context": "Every company director must have a director identification number, a unique 15-digit identifier that a director keeps permanently. Applications are made to the Australian Business Registry Services and must be completed personally by the director because identity verification is required. Newly appointed directors must apply before their appointment. Failing to hold a director identification number when required can attract civil and criminal penalties.",
+    "qas": [
+      {"question": "How many digits does a director identification number have?", "answer": "15-digit"},
+      {"question": "Which body receives applications for director identification numbers?", "answer": "the Australian Business Registry Services"},
+      {"question": "When must newly appointed directors apply?", "answer": "before their appointment"}
+    ]
+  },
+  {
+    "title": "Goods and services tax",
+    "context": "Goods and services tax is a broad-based tax of 10 percent on most goods, services and other items sold or consumed in Australia. A business must register for GST when its GST turnover is $75,000 or more, while non-profit organisations have a higher threshold of $150,000. Taxi and ride-sourcing drivers must register regardless of turnover. Registered businesses report GST on their business activity statement and can generally claim credits for the GST included in the price of business purchases.",
+    "qas": [
+      {"question": "What is the GST rate?", "answer": "10 percent"},
+      {"question": "What is the GST registration threshold for non-profit organisations?", "answer": "$150,000"},
+      {"question": "Which drivers must register for GST regardless of turnover?", "answer": "Taxi and ride-sourcing drivers"},
+      {"question": "On which statement do registered businesses report GST?", "answer": "their business activity statement"}
+    ]
+  },
+  {
+    "title": "Insolvent trading",
+    "context": "Section 588G of the Corporations Act imposes a duty on directors to prevent a company from incurring a debt when there are reasonable grounds to suspect the company is insolvent. A director who breaches the duty may face civil penalties and be ordered to compensate the company for creditor losses. The safe harbour provisions in section 588GA can protect a director who develops a course of action reasonably likely to lead to a better outcome for the company than immediate administration or liquidation.",
+    "qas": [
+      {"question": "Which section imposes the duty to prevent insolvent trading?", "answer": "Section 588G"},
+      {"question": "Which section contains the safe harbour provisions?", "answer": "section 588GA"},
+      {"question": "What might a director be ordered to compensate the company for?", "answer": "creditor losses"}
+    ]
+  },
+  {
+    "title": "Annual leave",
+    "context": "Under the National Employment Standards, full-time and part-time employees accrue four weeks of paid annual leave for each year of service, with shift workers entitled to an additional week. Annual leave accumulates progressively according to ordinary hours of work and carries over from year to year. Casual employees do not receive paid annual leave but are compensated through a casual loading, which is commonly 25 percent. Many modern awards also provide an annual leave loading of 17.5 percent.",
+    "qas": [
+      {"question": "How many weeks of paid annual leave do full-time employees accrue each year?", "answer": "four weeks"},
+      {"question": "Which employees are entitled to an additional week of annual leave?", "answer": "shift workers"},
+      {"question": "How are casual employees compensated instead of paid annual leave?", "answer": "through a casual loading"},
+      {"question": "What annual leave loading do many modern awards provide?", "answer": "17.5 percent"}
+    ]
+  },
+  {
+    "title": "Capital gains tax discount",
+    "context": "A capital gain or loss arises when a CGT event happens, most commonly the sale of an asset such as shares or an investment property. Individuals and trusts that hold an asset for at least twelve months before the CGT event can reduce the capital gain by 50 percent, while complying superannuation funds receive a discount of one-third. Companies are not entitled to the CGT discount. Capital losses can only be offset against capital gains and may be carried forward indefinitely.",
+    "qas": [
+      {"question": "How long must an individual hold an asset to receive the CGT discount?", "answer": "at least twelve months"},
+      {"question": "What discount do complying superannuation funds receive?", "answer": "one-third"},
+      {"question": "Which entities are not entitled to the CGT discount?", "answer": "Companies"},
+      {"question": "Against what can capital losses be offset?", "answer": "capital gains"}
+    ]
+  },
+  {
+    "title": "Continuous disclosure",
+    "context": "Entities listed on the Australian Securities Exchange must immediately disclose information that a reasonable person would expect to have a material effect on the price or value of their securities. Listing Rule 3.1 sets out the obligation, and section 674 of the Corporations Act gives it statutory force. Limited exceptions apply where the information is confidential, a reasonable person would not expect it to be disclosed, and it concerns an incomplete proposal or is a trade secret. ASIC may issue infringement notices for suspected breaches.",
+    "qas": [
+      {"question": "Which listing rule sets out the continuous disclosure obligation?", "answer": "Listing Rule 3.1"},
+      {"question": "Which section of the Corporations Act gives continuous disclosure statutory force?", "answer": "section 674"},
+      {"question": "What may ASIC issue for suspected breaches?", "answer": "infringement notices"}
+    ]
+  },
+  {
+    "title": "Fringe benefits tax",
+    "context": "Fringe benefits tax is paid by employers on certain benefits provided to employees or their associates in place of salary or wages. The FBT year runs from 1 April to 31 March, which differs from the income tax year. Common fringe benefits include the private use of a work car, low-interest loans and paying an employee's private health insurance. The FBT rate is 47 percent, equal to the top marginal tax rate plus the Medicare levy, and is applied to the grossed-up taxable value of benefits.",
+    "qas": [
+      {"question": "Who pays fringe benefits tax?", "answer": "employers"},
+      {"question": "When does the FBT year begin?", "answer": "1 April"},
+      {"question": "What is the FBT rate?", "answer": "47 percent"}
+    ]
+  },
+  {
+    "title": "Whistleblower protections",
+    "context": "The whistleblower provisions in Part 9.4AAA of the Corporations Act protect eligible whistleblowers who disclose misconduct or an improper state of affairs concerning a regulated entity. Disclosures can be made to ASIC, APRA, an eligible recipient within the entity, or a legal practitioner. Public companies, large proprietary companies and trustees of registrable superannuation entities must have a whistleblower policy. Victimising a whistleblower is a civil penalty provision and a criminal offence.",
+    "qas": [
+      {"question": "Which part of the Corporations Act contains the whistleblower provisions?", "answer": "Part 9.4AAA"},
+      {"question": "Which types of companies must have a whistleblower policy?", "answer": "Public companies, large proprietary companies"},
+      {"question": "What is victimising a whistleblower in addition to a civil penalty provision?", "answer": "a criminal offence"}
+    ]
+  },
+  {
+    "title": "Flexible working arrangements",
+    "context": "Employees with at least twelve months of continuous service can request flexible working arrangements if they are a parent of a school-age child, a carer, have a disability, are 55 or older, are pregnant, or are experiencing family and domestic violence. The request must be in writing, and the employer must respond in writing within 21 days. An employer can only refuse on reasonable business grounds after genuinely trying to reach agreement. Disputes about refusals can be dealt with by the Fair Work Commission.",
+    "qas": [
+      {"question": "How much continuous service is needed to request flexible working arrangements?", "answer": "at least twelve months"},
+      {"question": "Within how many days must the employer respond to a flexible work request?", "answer": "21 days"},
+      {"question": "On what grounds can an employer refuse a request?", "answer": "reasonable business grounds"}
+    ]
+  },
+  {
+    "title": "Annual general meetings",
+    "context": "A public company must hold an annual general meeting at least once each calendar year and within five months after the end of its financial year. The business of the meeting usually includes considering the financial report, the directors' report and the auditor's report, electing directors and appointing the auditor. Listed companies must also put a non-binding resolution to adopt the remuneration report. If 25 percent or more of votes are cast against the report at two consecutive meetings, a spill resolution must be put to members.",
+    "qas": [
+      {"question": "Within how many months after the end of the financial year must a public company hold its AGM?", "answer": "five months"},
+      {"question": "What kind of resolution is the vote to adopt the remuneration report?", "answer": "a non-binding resolution"},
+      {"question": "What percentage of votes against the remuneration report counts as a strike?", "answer": "25 percent or more"}
+    ]
+  },
+  {
+    "title": "Payroll tax",
+    "context": "Payroll tax is a state and territory tax on wages paid or payable by an employer to its employees once total Australian wages exceed a threshold. Each jurisdiction sets its own rate and threshold, and grouping provisions combine the wages of related businesses when testing the threshold. Taxable wages commonly include salaries, superannuation contributions, fringe benefits and certain contractor payments. Employers register with the revenue office in each state where they pay wages and lodge periodic returns.",
+    "qas": [
+      {"question": "What level of government levies payroll tax?", "answer": "state and territory"},
+      {"question": "Which provisions combine the wages of related businesses?", "answer": "grouping provisions"},
+      {"question": "Where do employers register for payroll tax?", "answer": "the revenue office in each state where they pay wages"}
+    ]
+  },
+  {
+    "title": "Voluntary administration",
+    "context": "Voluntary administration begins when a company's directors appoint an independent administrator because they believe the company is or is likely to become insolvent. The administrator investigates the company's affairs and holds a first meeting of creditors within eight business days. At the second meeting, creditors decide whether the company should execute a deed of company arrangement, go into liquidation, or be returned to the directors. During the administration a moratorium generally prevents creditors from enforcing their claims.",
+    "qas": [
+      {"question": "Who appoints the administrator in a voluntary administration?", "answer": "a company's directors"},
+      {"question": "Within how many business days must the first creditors' meeting be held?", "answer": "eight business days"},
+      {"question": "What generally prevents creditors from enforcing claims during administration?", "answer": "a moratorium"}
+    ]
+  }
+]

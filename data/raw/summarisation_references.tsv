@@ -1,0 +1,40 @@
+source	summary
+corpus-0	Public rulings issued by the Commissioner bind the Commissioner and protect taxpayers who rely on them from penalties and interest.
+corpus-1	Assessable income covers ordinary and statutory income, while exempt and non-assessable non-exempt income are excluded from taxable income.
+corpus-2	Outgoings are deductible when incurred in earning assessable income or running a business, but not if they are capital, private or domestic.
+corpus-3	GST applies to taxable supplies made in an enterprise, but input-taxed supplies such as residential rent carry no GST and no input tax credits.
+corpus-4	Single Touch Payroll requires employers to report wages, withholding and super to the tax office each payday.
+corpus-5	Late superannuation guarantee charges are not deductible and unpaid amounts can make directors personally liable.
+corpus-6	A trustee holds property for beneficiaries and, in a discretionary trust, decides who receives income or capital each year.
+corpus-7	Division 7A treats private company payments, loans and forgiven debts to shareholders as unfranked dividends unless loans are put on complying terms.
+corpus-8	The National Employment Standards set eleven minimum entitlements for national system employees, covering hours, leave, notice and redundancy.
+corpus-9	Modern awards set minimum pay and conditions for an industry or occupation on top of the National Employment Standards and are reviewed by the Fair Work Commission.
+corpus-10	Enterprise bargaining lets workplaces negotiate tailored agreements, with bargaining representatives bound by good faith requirements.
+corpus-11	Employees who have served the minimum period and are under the income threshold or covered by an award are protected from harsh, unjust or unreasonable dismissal.
+corpus-12	A redundancy is genuine only when the job is no longer needed, consultation obligations are met and redeployment was not reasonable.
+corpus-13	General protections stop anyone taking adverse action against a person for having or exercising a workplace right.
+corpus-14	Businesses must ensure worker health and safety so far as reasonably practicable, and officers must exercise due diligence.
+corpus-15	A company is a separate legal entity that can own property and contract, and shareholders are liable only for unpaid amounts on their shares.
+corpus-16	Directors and officers must act with the care and diligence of a reasonable person in their position.
+corpus-17	Directors must act in good faith in the company's best interests and for a proper purpose, and accessories to breaches can also be liable.
+corpus-18	Public companies, large proprietary companies, disclosing entities and registered schemes must prepare audited financial reports that meet accounting standards.
+corpus-19	Companies must keep financial records that explain their transactions and allow audited statements to be prepared, and retain them for seven years.
+corpus-20	Liquidation winds up a company and distributes asset proceeds to creditors by statutory priority, with employee entitlements paid before unsecured creditors.
+corpus-21	Financial services businesses need an Australian financial services licence and must meet obligations on resources, competence, risk management and dispute resolution.
+corpus-22	Market integrity rules add requirements for market participants, and insider trading means trading on inside information.
+corpus-23	APRA supervises banks, insurers and most super funds through prudential standards on capital, liquidity, governance and risk.
+corpus-24	AUSTRAC requires reporting entities to run anti-money laundering programs, verify customers and report suspicious and threshold transactions.
+qa:Superannuation guarantee	Employers must pay at least 12 percent super quarterly, and missed deadlines trigger the superannuation guarantee charge.
+qa:Unfair dismissal	Unfair dismissal claims go to the Fair Work Commission within 21 days and may lead to reinstatement or capped compensation.
+qa:Director identification numbers	Every director needs a permanent 15-digit director ID, applied for personally through the Australian Business Registry Services before appointment.
+qa:Goods and services tax	GST is a 10 percent tax that businesses must register for once turnover reaches $75,000, with credits available for business purchases.
+qa:Insolvent trading	Directors must not let a company incur debts while insolvent, although safe harbour can protect those pursuing a better outcome.
+qa:Annual leave	Employees accrue four weeks of paid annual leave a year, while casuals receive a loading instead.
+qa:Capital gains tax discount	Individuals and trusts holding assets for twelve months get a 50 percent CGT discount, super funds get one-third and companies get none.
+qa:Continuous disclosure	Listed entities must immediately disclose price-sensitive information unless a narrow confidentiality exception applies.
+qa:Fringe benefits tax	Employers pay FBT at 47 percent on non-cash benefits given to employees, in a year running from April to March.
+qa:Whistleblower protections	The Corporations Act protects whistleblowers who report misconduct and requires larger companies to have a whistleblower policy.
+qa:Flexible working arrangements	Eligible employees can request flexible work in writing, and employers must respond within 21 days and refuse only on reasonable business grounds.
+qa:Annual general meetings	Public companies must hold an AGM within five months of year end, and listed companies vote on the remuneration report.
+qa:Payroll tax	Payroll tax is a state tax on wages above a threshold, with grouping rules and registration in each state where wages are paid.
+qa:Voluntary administration	Directors of an insolvent company can appoint an administrator, and creditors later decide the company's future while a moratorium applies.

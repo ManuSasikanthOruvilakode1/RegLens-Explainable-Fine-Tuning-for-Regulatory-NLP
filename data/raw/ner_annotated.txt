@@ -1,0 +1,75 @@
+# One sentence per line. Entities use [span](TYPE) markup; tokens are whitespace-separated.
+# Types: GOV_BODY, REGULATORY_ACT, FINANCIAL_TERM, ORG
+The [ATO](GOV_BODY) released guidelines on [superannuation guarantee](FINANCIAL_TERM) payments .
+Section 286 of the [Corporations Act](REGULATORY_ACT) governs record keeping .
+[Fair Work Commission](GOV_BODY) reviewed the annual wage safety net .
+[ASIC](GOV_BODY) enforces compliance under Australian statute .
+[Superannuation guarantee](FINANCIAL_TERM) obligations apply nationally .
+The [Australian Taxation Office](GOV_BODY) administers [goods and services tax](FINANCIAL_TERM) collections .
+Directors owe duties of care and diligence under the [Corporations Act 2001](REGULATORY_ACT) .
+The [Fair Work Ombudsman](GOV_BODY) recovered unpaid [penalty rates](FINANCIAL_TERM) for hospitality workers .
+Employers must comply with the [National Employment Standards](REGULATORY_ACT) in the [Fair Work Act 2009](REGULATORY_ACT) .
+The [Reserve Bank of Australia](GOV_BODY) left the [cash rate](FINANCIAL_TERM) unchanged this month .
+[APRA](GOV_BODY) supervises banks , insurers and [superannuation](FINANCIAL_TERM) funds .
+Listed entities on the [Australian Securities Exchange](ORG) must meet continuous disclosure obligations .
+The [ACCC](GOV_BODY) investigates breaches of the [Competition and Consumer Act 2010](REGULATORY_ACT) .
+[Franking credits](FINANCIAL_TERM) are attached to dividends paid by Australian companies .
+The [Income Tax Assessment Act 1997](REGULATORY_ACT) defines assessable income and deductions .
+[AUSTRAC](GOV_BODY) monitors reporting entities under the [Anti-Money Laundering and Counter-Terrorism Financing Act 2006](REGULATORY_ACT) .
+[Capital gains tax](FINANCIAL_TERM) applies when a CGT event happens to an asset .
+The [Commonwealth Bank](ORG) reported its [net interest margin](FINANCIAL_TERM) to shareholders .
+A [business activity statement](FINANCIAL_TERM) must be lodged with the [ATO](GOV_BODY) each quarter .
+The [Australian Prudential Regulation Authority](GOV_BODY) sets [capital adequacy](FINANCIAL_TERM) standards for authorised deposit-taking institutions .
+[Fringe benefits tax](FINANCIAL_TERM) is reported under the [Fringe Benefits Tax Assessment Act 1986](REGULATORY_ACT) .
+The [Australian Council of Trade Unions](ORG) made submissions to the annual wage review .
+[ASIC](GOV_BODY) commenced civil penalty proceedings against the directors of a listed company .
+The [Privacy Act 1988](REGULATORY_ACT) regulates the handling of personal information by organisations .
+[Payroll tax](FINANCIAL_TERM) is administered by each state revenue office .
+The [Australian Business Registry Services](GOV_BODY) issues director identification numbers .
+[Westpac](ORG) agreed to pay a record penalty to [AUSTRAC](GOV_BODY) .
+The [Fair Work Act 2009](REGULATORY_ACT) prohibits adverse action against employees .
+An [enterprise agreement](FINANCIAL_TERM) must be approved by the [Fair Work Commission](GOV_BODY) .
+The [Australian Competition and Consumer Commission](GOV_BODY) blocked the proposed merger .
+[Dividend imputation](FINANCIAL_TERM) prevents company profits from being taxed twice .
+The [Tax Administration Act 1953](REGULATORY_ACT) sets out penalties for late lodgment .
+[ANZ](ORG) and [NAB](ORG) are among the largest authorised deposit-taking institutions .
+The [Superannuation Industry (Supervision) Act 1993](REGULATORY_ACT) governs regulated superannuation funds .
+[Negative gearing](FINANCIAL_TERM) remains available to residential property investors .
+The [Treasury](GOV_BODY) published consultation papers on [payday super](FINANCIAL_TERM) reforms .
+The [Australian Financial Complaints Authority](ORG) resolves disputes between consumers and financial firms .
+[Medicare levy](FINANCIAL_TERM) is calculated as 2 percent of taxable income .
+The [Fair Work Ombudsman](GOV_BODY) issued compliance notices to franchise operators .
+[ASX](ORG) listing rules require timely disclosure of material information .
+The [Corporations Act](REGULATORY_ACT) requires large proprietary companies to lodge audited [financial reports](FINANCIAL_TERM) .
+The [Australian Energy Regulator](GOV_BODY) sets network revenue determinations .
+[Goods and services tax](FINANCIAL_TERM) is charged at 10 percent on taxable supplies .
+The [Federal Court](GOV_BODY) imposed penalties for contraventions of the [Fair Work Act](REGULATORY_ACT) .
+[Telstra](ORG) disclosed its [earnings per share](FINANCIAL_TERM) in the annual report .
+The [Australian Securities and Investments Commission](GOV_BODY) issued a stop order on the product .
+The [Work Health and Safety Act 2011](REGULATORY_ACT) imposes a primary duty of care on businesses .
+[Division 293 tax](FINANCIAL_TERM) applies to high-income superannuation contributions .
+[Safe Work Australia](GOV_BODY) develops national policy on work health and safety .
+[BHP](ORG) paid fully franked [dividends](FINANCIAL_TERM) to its shareholders .
+The [Office of the Australian Information Commissioner](GOV_BODY) investigates data breaches .
+[Land tax](FINANCIAL_TERM) is assessed on the unimproved value of land .
+[ASIC](GOV_BODY) released regulatory guidance on the [Design and Distribution Obligations](REGULATORY_ACT) .
+The [Clean Energy Regulator](GOV_BODY) administers carbon credit units .
+[Woolworths](ORG) back-paid staff after an underpayment review by the [Fair Work Ombudsman](GOV_BODY) .
+The [Insolvency Practice Rules](REGULATORY_ACT) govern the conduct of registered liquidators .
+[Stamp duty](FINANCIAL_TERM) is payable on the transfer of real property .
+The [Productivity Commission](GOV_BODY) reviewed the efficiency of the [superannuation](FINANCIAL_TERM) system .
+[Macquarie Group](ORG) reported higher [operating income](FINANCIAL_TERM) for the half year .
+The [A New Tax System (Goods and Services Tax) Act 1999](REGULATORY_ACT) defines a taxable supply .
+[Transfer pricing](FINANCIAL_TERM) rules are enforced by the [ATO](GOV_BODY) against multinational groups .
+The [Takeovers Panel](GOV_BODY) declared the circumstances unacceptable .
+[Qantas](ORG) was ordered to compensate workers under the [Fair Work Act](REGULATORY_ACT) .
+[PAYG withholding](FINANCIAL_TERM) amounts are reported through [Single Touch Payroll](FINANCIAL_TERM) .
+The [Australian Tax Practitioners Board](GOV_BODY) regulates registered tax agents .
+The [National Consumer Credit Protection Act 2009](REGULATORY_ACT) imposes responsible lending obligations .
+[Rio Tinto](ORG) lodged a [substantial holding notice](FINANCIAL_TERM) with the [ASX](ORG) .
+[Long service leave](FINANCIAL_TERM) is governed by state legislation .
+The [High Court](GOV_BODY) clarified the distinction between employees and contractors .
+[Research and development tax incentive](FINANCIAL_TERM) claims are jointly administered by [AusIndustry](GOV_BODY) and the [ATO](GOV_BODY) .
+The [Banking Act 1959](REGULATORY_ACT) requires deposit-takers to be authorised by [APRA](GOV_BODY) .
+[AustralianSuper](ORG) is the largest [superannuation](FINANCIAL_TERM) fund by members .
+The [Australian Electoral Commission](GOV_BODY) publishes annual financial disclosure returns .

@@ -1,0 +1,13 @@
+*.pyc
+.pytest_cache/
+.venv/
+__pycache__/
+mlartifacts/
+mlruns.db
+mlruns/
+models/
+# per-run outputs (summarised in results/classification_ablation.* and results/metrics/)
+results/classification/ablation_*
+results/classification/control_*
+results/classification/dapt_*
+results/metrics/classification_ablation_*_s*.json

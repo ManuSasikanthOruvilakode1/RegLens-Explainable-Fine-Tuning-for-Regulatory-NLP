@@ -1,0 +1,146 @@
+[
+  {
+    "model": "teacher",
+    "base_model": "roberta-base",
+    "method": "full",
+    "total_params": 124647939,
+    "trainable_params": 124647939,
+    "train_seconds": 10.6,
+    "test": {
+      "accuracy": 0.9523809523809523,
+      "macro_f1": 0.9530864197530864,
+      "macro_precision": 0.9583333333333334,
+      "macro_recall": 0.9523809523809524,
+      "macro_f1_95ci": [
+        0.8794,
+        1.0
+      ],
+      "accuracy_95ci": [
+        0.881,
+        1.0
+      ],
+      "accuracy_wilson_95ci": [
+        0.8421,
+        0.9868
+      ],
+      "log_loss": 0.4786,
+      "latency_ms_per_sample": 0.8
+    },
+    "challenge": {
+      "accuracy": 0.8666666666666667,
+      "macro_f1": 0.868077055383557,
+      "macro_precision": 0.9047619047619048,
+      "macro_recall": 0.8666666666666667,
+      "macro_f1_95ci": [
+        0.7221,
+        0.9709
+      ],
+      "accuracy_95ci": [
+        0.7333,
+        0.9667
+      ],
+      "accuracy_wilson_95ci": [
+        0.7032,
+        0.9469
+      ],
+      "log_loss": 0.8014,
+      "latency_ms_per_sample": 0.534
+    }
+  },
+  {
+    "model": "student_hard_labels",
+    "base_model": "distilbert-base-uncased",
+    "method": "full",
+    "total_params": 66955779,
+    "trainable_params": 66955779,
+    "train_seconds": 8.9,
+    "test": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1_95ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy_95ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy_wilson_95ci": [
+        0.9162,
+        1.0
+      ],
+      "log_loss": 0.0169,
+      "latency_ms_per_sample": 0.451
+    },
+    "challenge": {
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8374727668845315,
+      "macro_precision": 0.8888888888888888,
+      "macro_recall": 0.8333333333333334,
+      "macro_f1_95ci": [
+        0.6782,
+        0.9663
+      ],
+      "accuracy_95ci": [
+        0.7,
+        0.9667
+      ],
+      "accuracy_wilson_95ci": [
+        0.6644,
+        0.9266
+      ],
+      "log_loss": 0.4136,
+      "latency_ms_per_sample": 0.301
+    }
+  },
+  {
+    "model": "student_distilled",
+    "base_model": "distilbert-base-uncased",
+    "method": "full",
+    "total_params": 66955779,
+    "trainable_params": 66955779,
+    "train_seconds": 6.3,
+    "test": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1_95ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy_95ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy_wilson_95ci": [
+        0.9162,
+        1.0
+      ],
+      "log_loss": 0.2719,
+      "latency_ms_per_sample": 0.4
+    },
+    "challenge": {
+      "accuracy": 0.8,
+      "macro_f1": 0.8027065527065527,
+      "macro_precision": 0.875,
+      "macro_recall": 0.7999999999999999,
+      "macro_f1_95ci": [
+        0.6247,
+        0.9429
+      ],
+      "accuracy_95ci": [
+        0.6333,
+        0.9333
+      ],
+      "accuracy_wilson_95ci": [
+        0.6269,
+        0.9049
+      ],
+      "log_loss": 0.6561,
+      "latency_ms_per_sample": 0.391
+    }
+  }
+]

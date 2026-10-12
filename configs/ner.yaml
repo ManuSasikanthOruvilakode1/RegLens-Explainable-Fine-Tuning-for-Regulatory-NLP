@@ -1,0 +1,36 @@
+task: ner
+seed: 42
+dataset:
+  train_path: "data/processed/ner/train.jsonl"
+  dev_path: "data/processed/ner/dev.jsonl"
+  test_path: "data/processed/ner/test.jsonl"
+  entities: ["ORG", "REGULATORY_ACT", "GOV_BODY", "FINANCIAL_TERM"]
+
+model:
+  base_model: "roberta-base"
+  max_seq_length: 128
+
+training:
+  method: "lora"            # full, lora, rslora, qlora
+  batch_size: 8
+  gradient_accumulation_steps: 1
+  learning_rate_peft: 5.0e-4
+  learning_rate_full: 3.0e-5
+  scheduler: "cosine"
+  warmup_ratio: 0.1
+  epochs: 40
+  early_stopping_patience: 6
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["query", "value"]
+
+evaluation:
+  bootstrap_iterations: 500
+  metric: "seqeval"
+  mode: "strict"
+  scheme: "IOB2"

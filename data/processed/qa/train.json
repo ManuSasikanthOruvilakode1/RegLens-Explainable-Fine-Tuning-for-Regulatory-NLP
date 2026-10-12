@@ -1,0 +1,435 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "title": "Voluntary administration",
+      "paragraphs": [
+        {
+          "context": "Voluntary administration begins when a company's directors appoint an independent administrator because they believe the company is or is likely to become insolvent. The administrator investigates the company's affairs and holds a first meeting of creditors within eight business days. At the second meeting, creditors decide whether the company should execute a deed of company arrangement, go into liquidation, or be returned to the directors. During the administration a moratorium generally prevents creditors from enforcing their claims.",
+          "qas": [
+            {
+              "id": "train-0-0",
+              "question": "Who appoints the administrator in a voluntary administration?",
+              "answers": [
+                {
+                  "text": "a company's directors",
+                  "answer_start": 37
+                }
+              ]
+            },
+            {
+              "id": "train-0-1",
+              "question": "Within how many business days must the first creditors' meeting be held?",
+              "answers": [
+                {
+                  "text": "eight business days",
+                  "answer_start": 265
+                }
+              ]
+            },
+            {
+              "id": "train-0-2",
+              "question": "What generally prevents creditors from enforcing claims during administration?",
+              "answers": [
+                {
+                  "text": "a moratorium",
+                  "answer_start": 472
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Annual general meetings",
+      "paragraphs": [
+        {
+          "context": "A public company must hold an annual general meeting at least once each calendar year and within five months after the end of its financial year. The business of the meeting usually includes considering the financial report, the directors' report and the auditor's report, electing directors and appointing the auditor. Listed companies must also put a non-binding resolution to adopt the remuneration report. If 25 percent or more of votes are cast against the report at two consecutive meetings, a spill resolution must be put to members.",
+          "qas": [
+            {
+              "id": "train-1-0",
+              "question": "Within how many months after the end of the financial year must a public company hold its AGM?",
+              "answers": [
+                {
+                  "text": "five months",
+                  "answer_start": 97
+                }
+              ]
+            },
+            {
+              "id": "train-1-1",
+              "question": "What kind of resolution is the vote to adopt the remuneration report?",
+              "answers": [
+                {
+                  "text": "a non-binding resolution",
+                  "answer_start": 351
+                }
+              ]
+            },
+            {
+              "id": "train-1-2",
+              "question": "What percentage of votes against the remuneration report counts as a strike?",
+              "answers": [
+                {
+                  "text": "25 percent or more",
+                  "answer_start": 413
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Annual leave",
+      "paragraphs": [
+        {
+          "context": "Under the National Employment Standards, full-time and part-time employees accrue four weeks of paid annual leave for each year of service, with shift workers entitled to an additional week. Annual leave accumulates progressively according to ordinary hours of work and carries over from year to year. Casual employees do not receive paid annual leave but are compensated through a casual loading, which is commonly 25 percent. Many modern awards also provide an annual leave loading of 17.5 percent.",
+          "qas": [
+            {
+              "id": "train-2-0",
+              "question": "How many weeks of paid annual leave do full-time employees accrue each year?",
+              "answers": [
+                {
+                  "text": "four weeks",
+                  "answer_start": 82
+                }
+              ]
+            },
+            {
+              "id": "train-2-1",
+              "question": "Which employees are entitled to an additional week of annual leave?",
+              "answers": [
+                {
+                  "text": "shift workers",
+                  "answer_start": 145
+                }
+              ]
+            },
+            {
+              "id": "train-2-2",
+              "question": "How are casual employees compensated instead of paid annual leave?",
+              "answers": [
+                {
+                  "text": "through a casual loading",
+                  "answer_start": 372
+                }
+              ]
+            },
+            {
+              "id": "train-2-3",
+              "question": "What annual leave loading do many modern awards provide?",
+              "answers": [
+                {
+                  "text": "17.5 percent",
+                  "answer_start": 487
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Director identification numbers",
+      "paragraphs": [
+        {
+          "context": "Every company director must have a director identification number, a unique 15-digit identifier that a director keeps permanently. Applications are made to the Australian Business Registry Services and must be completed personally by the director because identity verification is required. Newly appointed directors must apply before their appointment. Failing to hold a director identification number when required can attract civil and criminal penalties.",
+          "qas": [
+            {
+              "id": "train-3-0",
+              "question": "How many digits does a director identification number have?",
+              "answers": [
+                {
+                  "text": "15-digit",
+                  "answer_start": 76
+                }
+              ]
+            },
+            {
+              "id": "train-3-1",
+              "question": "Which body receives applications for director identification numbers?",
+              "answers": [
+                {
+                  "text": "the Australian Business Registry Services",
+                  "answer_start": 156
+                }
+              ]
+            },
+            {
+              "id": "train-3-2",
+              "question": "When must newly appointed directors apply?",
+              "answers": [
+                {
+                  "text": "before their appointment",
+                  "answer_start": 327
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Whistleblower protections",
+      "paragraphs": [
+        {
+          "context": "The whistleblower provisions in Part 9.4AAA of the Corporations Act protect eligible whistleblowers who disclose misconduct or an improper state of affairs concerning a regulated entity. Disclosures can be made to ASIC, APRA, an eligible recipient within the entity, or a legal practitioner. Public companies, large proprietary companies and trustees of registrable superannuation entities must have a whistleblower policy. Victimising a whistleblower is a civil penalty provision and a criminal offence.",
+          "qas": [
+            {
+              "id": "train-4-0",
+              "question": "Which part of the Corporations Act contains the whistleblower provisions?",
+              "answers": [
+                {
+                  "text": "Part 9.4AAA",
+                  "answer_start": 32
+                }
+              ]
+            },
+            {
+              "id": "train-4-1",
+              "question": "Which types of companies must have a whistleblower policy?",
+              "answers": [
+                {
+                  "text": "Public companies, large proprietary companies",
+                  "answer_start": 292
+                }
+              ]
+            },
+            {
+              "id": "train-4-2",
+              "question": "What is victimising a whistleblower in addition to a civil penalty provision?",
+              "answers": [
+                {
+                  "text": "a criminal offence",
+                  "answer_start": 485
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Goods and services tax",
+      "paragraphs": [
+        {
+          "context": "Goods and services tax is a broad-based tax of 10 percent on most goods, services and other items sold or consumed in Australia. A business must register for GST when its GST turnover is $75,000 or more, while non-profit organisations have a higher threshold of $150,000. Taxi and ride-sourcing drivers must register regardless of turnover. Registered businesses report GST on their business activity statement and can generally claim credits for the GST included in the price of business purchases.",
+          "qas": [
+            {
+              "id": "train-5-0",
+              "question": "What is the GST rate?",
+              "answers": [
+                {
+                  "text": "10 percent",
+                  "answer_start": 47
+                }
+              ]
+            },
+            {
+              "id": "train-5-1",
+              "question": "What is the GST registration threshold for non-profit organisations?",
+              "answers": [
+                {
+                  "text": "$150,000",
+                  "answer_start": 262
+                }
+              ]
+            },
+            {
+              "id": "train-5-2",
+              "question": "Which drivers must register for GST regardless of turnover?",
+              "answers": [
+                {
+                  "text": "Taxi and ride-sourcing drivers",
+                  "answer_start": 272
+                }
+              ]
+            },
+            {
+              "id": "train-5-3",
+              "question": "On which statement do registered businesses report GST?",
+              "answers": [
+                {
+                  "text": "their business activity statement",
+                  "answer_start": 377
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Insolvent trading",
+      "paragraphs": [
+        {
+          "context": "Section 588G of the Corporations Act imposes a duty on directors to prevent a company from incurring a debt when there are reasonable grounds to suspect the company is insolvent. A director who breaches the duty may face civil penalties and be ordered to compensate the company for creditor losses. The safe harbour provisions in section 588GA can protect a director who develops a course of action reasonably likely to lead to a better outcome for the company than immediate administration or liquidation.",
+          "qas": [
+            {
+              "id": "train-6-0",
+              "question": "Which section imposes the duty to prevent insolvent trading?",
+              "answers": [
+                {
+                  "text": "Section 588G",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "train-6-1",
+              "question": "Which section contains the safe harbour provisions?",
+              "answers": [
+                {
+                  "text": "section 588GA",
+                  "answer_start": 330
+                }
+              ]
+            },
+            {
+              "id": "train-6-2",
+              "question": "What might a director be ordered to compensate the company for?",
+              "answers": [
+                {
+                  "text": "creditor losses",
+                  "answer_start": 282
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Superannuation guarantee",
+      "paragraphs": [
+        {
+          "context": "The superannuation guarantee requires employers to contribute a minimum percentage of an eligible employee's ordinary time earnings to a complying superannuation fund. The rate rose to 11.5 percent on 1 July 2024 and to 12 percent on 1 July 2025. Contributions must be paid at least four times a year, by the 28th day after the end of each quarter. Employers who miss a quarterly deadline must lodge a superannuation guarantee charge statement and pay the charge, which includes the shortfall, nominal interest and an administration fee.",
+          "qas": [
+            {
+              "id": "train-7-0",
+              "question": "What is the superannuation guarantee rate from 1 July 2025?",
+              "answers": [
+                {
+                  "text": "12 percent",
+                  "answer_start": 220
+                }
+              ]
+            },
+            {
+              "id": "train-7-1",
+              "question": "By which day after the end of each quarter must contributions be paid?",
+              "answers": [
+                {
+                  "text": "the 28th day",
+                  "answer_start": 305
+                }
+              ]
+            },
+            {
+              "id": "train-7-2",
+              "question": "What must employers lodge if they miss a quarterly deadline?",
+              "answers": [
+                {
+                  "text": "a superannuation guarantee charge statement",
+                  "answer_start": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unfair dismissal",
+      "paragraphs": [
+        {
+          "context": "An employee who believes they were unfairly dismissed can apply to the Fair Work Commission. The application must be made within 21 days after the dismissal took effect. To be protected, an employee generally needs to have completed a minimum employment period of six months, or twelve months if the employer is a small business with fewer than fifteen employees. The Commission may order reinstatement or, where reinstatement is inappropriate, compensation capped at six months of pay.",
+          "qas": [
+            {
+              "id": "train-8-0",
+              "question": "Where does an employee apply if they believe they were unfairly dismissed?",
+              "answers": [
+                {
+                  "text": "the Fair Work Commission",
+                  "answer_start": 67
+                }
+              ]
+            },
+            {
+              "id": "train-8-1",
+              "question": "Within how many days must an unfair dismissal application be made?",
+              "answers": [
+                {
+                  "text": "21 days",
+                  "answer_start": 129
+                }
+              ]
+            },
+            {
+              "id": "train-8-2",
+              "question": "What is the minimum employment period for a small business employee?",
+              "answers": [
+                {
+                  "text": "twelve months",
+                  "answer_start": 279
+                }
+              ]
+            },
+            {
+              "id": "train-8-3",
+              "question": "What is unfair dismissal compensation capped at?",
+              "answers": [
+                {
+                  "text": "six months of pay",
+                  "answer_start": 468
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Flexible working arrangements",
+      "paragraphs": [
+        {
+          "context": "Employees with at least twelve months of continuous service can request flexible working arrangements if they are a parent of a school-age child, a carer, have a disability, are 55 or older, are pregnant, or are experiencing family and domestic violence. The request must be in writing, and the employer must respond in writing within 21 days. An employer can only refuse on reasonable business grounds after genuinely trying to reach agreement. Disputes about refusals can be dealt with by the Fair Work Commission.",
+          "qas": [
+            {
+              "id": "train-9-0",
+              "question": "How much continuous service is needed to request flexible working arrangements?",
+              "answers": [
+                {
+                  "text": "at least twelve months",
+                  "answer_start": 15
+                }
+              ]
+            },
+            {
+              "id": "train-9-1",
+              "question": "Within how many days must the employer respond to a flexible work request?",
+              "answers": [
+                {
+                  "text": "21 days",
+                  "answer_start": 335
+                }
+              ]
+            },
+            {
+              "id": "train-9-2",
+              "question": "On what grounds can an employer refuse a request?",
+              "answers": [
+                {
+                  "text": "reasonable business grounds",
+                  "answer_start": 375
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

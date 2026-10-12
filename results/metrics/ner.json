@@ -1,0 +1,24 @@
+{
+  "gazetteer": {
+    "precision": 0.8571428571428571,
+    "recall": 0.24,
+    "f1": 0.375,
+    "f1_95ci": [
+      0.1804,
+      0.5
+    ]
+  },
+  "transformer": {
+    "base_model": "roberta-base",
+    "method": "lora",
+    "precision": 0.7391304347826086,
+    "recall": 0.68,
+    "f1": 0.7083333333333334,
+    "f1_95ci": [
+      0.5686,
+      0.8423
+    ],
+    "epochs": 17,
+    "train_seconds": 5.7
+  }
+}

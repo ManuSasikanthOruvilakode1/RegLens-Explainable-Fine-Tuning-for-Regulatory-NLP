@@ -1,0 +1,50 @@
+{
+  "run_name": "dapt_lora_s7",
+  "base_model": "models/domain_adapted/bert-base-uncased-au",
+  "method": "lora",
+  "trainable_params": 592131,
+  "total_params": 110076678,
+  "train_seconds": 10.3,
+  "peak_gpu_mib": 686.2,
+  "epochs_run": 10,
+  "test": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1_95ci": [
+      1.0,
+      1.0
+    ],
+    "accuracy_95ci": [
+      1.0,
+      1.0
+    ],
+    "accuracy_wilson_95ci": [
+      0.9162,
+      1.0
+    ],
+    "log_loss": 0.1459,
+    "latency_ms_per_sample": 1.814
+  },
+  "challenge": {
+    "accuracy": 0.8666666666666667,
+    "macro_f1": 0.868077055383557,
+    "macro_precision": 0.9047619047619048,
+    "macro_recall": 0.8666666666666667,
+    "macro_f1_95ci": [
+      0.7193,
+      0.9699
+    ],
+    "accuracy_95ci": [
+      0.7333,
+      0.9667
+    ],
+    "accuracy_wilson_95ci": [
+      0.7032,
+      0.9469
+    ],
+    "log_loss": 0.5645,
+    "latency_ms_per_sample": 1.436
+  }
+}
