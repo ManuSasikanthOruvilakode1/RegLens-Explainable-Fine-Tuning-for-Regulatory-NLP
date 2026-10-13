@@ -1,4 +1,4 @@
-# RegLens: Explainable Fine-Tuning for Regulatory NLP
+# RegLens: Explainable Fine-Tuning for Regulatory NLP 
 
 Parameter-efficient transformer fine-tuning on Australian regulatory text (taxation, workplace relations and corporate governance). The suite covers sequence classification, named entity recognition, extractive question answering, domain-adaptive pre-training, knowledge distillation, multi-task learning, abstractive summarisation, token attribution, ONNX / INT8 deployment and MLflow experiment tracking. Every number below comes from a run on held-out data, with 95% confidence intervals.
 
