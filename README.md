@@ -2,6 +2,8 @@
 
 Parameter-efficient transformer fine-tuning on Australian regulatory text (taxation, workplace relations and corporate governance). The suite covers sequence classification, named entity recognition, extractive question answering, domain-adaptive pre-training, knowledge distillation, multi-task learning, abstractive summarisation, token attribution, ONNX / INT8 deployment and MLflow experiment tracking. Every number below comes from a run on held-out data, with 95% confidence intervals.
 
+Quick links: [Repository](https://github.com/ManuSasikanthOruvilakode1/RegLens-Explainable-Fine-Tuning-for-Regulatory-NLP) | [License (Apache-2.0)](LICENSE)
+
 The datasets are small and hand-curated, because the goal is to compare methods honestly under low-resource conditions rather than to chase leaderboard scores. The confidence intervals are wide for that reason, and the results tables show them.
 
 ![Classify tab: domain prediction with word attributions](docs/images/demo_classify.png)
